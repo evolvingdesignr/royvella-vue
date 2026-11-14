@@ -1,0 +1,25 @@
+{
+  "name": "royvella-vue",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.9",
+    "nuxt": "4.6.4",
+    "vue": "3.5.45",
+    "vue-router": "5.5.1"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "vue-tsc": "3.3.14"
+  }
+}
