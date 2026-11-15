@@ -685,7 +685,7 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
           <div
             class="about-actions d-flex align-items-center flex-wrap row-gap-3 column-gap-4"
           >
-            <a class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap d-inline-flex align-items-center" href="https://www.royvella.com/contact">CONTACT ME →</a>
+            <NuxtLink class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap d-inline-flex align-items-center" href="/contact">CONTACT ME →</NuxtLink>
             <a class="all-work-link" href="https://www.linkedin.com/in/roy-vella" target="_blank" rel="noopener noreferrer">LINKEDIN ↗<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
         </div>

@@ -63,7 +63,10 @@ This project uses Nuxt 4 with Vue 3 and TypeScript.
 - `app/pages/work/[slug].vue`: one dynamic detail page for all eight records in `app/data/projects.json`; unknown slugs return 404.
 - `app/components/ProjectGallery.vue`: shared detail-image gallery, grouped thumbnails, and native-dialog enlargement.
 - `app/pages/lab.vue`: the reference Lab introduction, Motion / 3D collection, and Drawings & Sketches empty state.
-- `app/components/SiteHeader.vue`: shared interior-page header for Work and Lab; the homepage keeps its distinct hero header.
+- `app/pages/about.vue`: the original introduction, interests, toolbox, and responsive career timeline, using verified records in `app/data/career-milestones.json`.
+- `app/pages/contact.vue`: the reference form and direct contact links. Native required/email validation is available, but sending remains disabled until an integration is approved.
+- `app/pages/changelog.vue`: the original reference site’s five releases and future ideas, preserved as static HTML; these are not newly invented Nuxt releases.
+- `app/components/SiteHeader.vue`: shared header for the interior pages; the homepage keeps its distinct hero header.
 - `app/components/CreativeGallery.vue`: shared native-dialog media viewer. Work controls selection through its query string; Lab uses local selection without changing the URL.
 - `app/data/`: reference project listing and creative-gallery metadata; media files live under `public/`.
 - `app/components/SiteFooter.vue`: shared footer with internal navigation and social profiles filtered to entries with URLs.
@@ -106,7 +109,7 @@ All eight published projects use one dynamic Nuxt detail page with the original 
 
 Remaining work and verification limits:
 
-- `/about`, `/contact`, and `/changelog` are not implemented locally. The interior header uses the live portfolio where needed. Work cards and homepage featured projects now use local detail routes. Some homepage/footer links still target those unfinished local routes. The homepage Lab links, interior navigation, and Lab “View in Work” links now use the implemented local pages.
+- About, Contact, and Changelog are now local. Contact form sending is intentionally disabled until a backend integration is approved; direct email and LinkedIn links remain available. Work cards and homepage featured projects now use local detail routes. The homepage Lab links, interior navigation, and Lab “View in Work” links now use the implemented local pages.
 - The reference’s Pro 7.3.1 JavaScript Kit is now configured in Nuxt, replacing the Free 6.7.2 stylesheet. Sharp classes match the reference. Browser checks for rendered icons, Vue hydration, reactive updates, and client-side navigation remain required; no custom lifecycle integration has been added without an observed conflict.
 - The shared interior header still lacks the reference’s mobile mood selector. Local Nitro serves full MP4 files rather than byte ranges; real-browser video seeking remains unverified.
 - Dock targets match the reference, but CSS easing approximates its spring animation. The footer credit correctly identifies Vue + Nuxt; social entries without URLs remain hidden.
@@ -117,5 +120,5 @@ Remaining work and verification limits:
 - Nuxt 4.6.4, Vue 3.5.45, Bootstrap 5.3.9, and TypeScript 6.0.3.
 - Dependency versions are pinned in `package.json` and `package-lock.json` for reproducible installation.
 - `npm run typecheck` and `npm run build` pass.
-- Local server checks verified `/`, `/work`, `/lab`, filtered/deep-link responses, shared chrome, one Pro Kit per page, and all referenced assets. Controlled behavior checks covered both gallery selection modes, query/history updates, wraparound, native sizing, playback/focus/scroll cleanup, ROYGBIV lifecycle, and carousel swipes. Browser console, hydration, runtime Pro rendering, and responsive visual checks remain unverified because browser access is unavailable.
+- Local server checks verified `/`, `/about`, `/contact`, `/changelog`, `/work`, all eight project details, `/lab`, invalid-slug 404 handling, filtered/deep-link responses, shared chrome, one Pro Kit per page, and referenced assets. About career content and Changelog history match the reference; Contact validation preserves entered data and makes no submission requests. Controlled behavior checks covered both gallery selection modes, query/history updates, wraparound, native sizing, playback/focus/scroll cleanup, ROYGBIV lifecycle, and carousel swipes. Browser console, hydration, runtime Pro rendering, and responsive visual checks remain unverified because browser access is unavailable.
 - The foundation audit reported 6 low and 4 moderate dependency findings. That historical audit has not been rerun for this milestone; dependency versions are unchanged.

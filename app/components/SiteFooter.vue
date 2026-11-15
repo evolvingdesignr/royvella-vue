@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const year = new Date().getFullYear()
-// Preserve the reference footer's release label until Vue has its own changelog.
+// Match the reference site's release label in the migrated changelog.
 const currentVersion = 'v0.004'
 const socials: { name: string; icon: string; href?: string }[] = [
   { name: 'GitHub', icon: 'fa-brands fa-github' },

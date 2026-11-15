@@ -1,0 +1,244 @@
+[
+  {
+    "id": "early-web",
+    "label": "Web Designer",
+    "company": "Marketing Concepts",
+    "role": "Web Designer",
+    "date": {
+      "year": 2000,
+      "label": "Early 2000s",
+      "source": "Roy’s explicit career progression update, 2026-10-30."
+    },
+    "description": "I started my web design career at Marketing Concepts, building websites with Adobe Dreamweaver and Fireworks. Little did I know I'd return years later to the company it would eventually become, working with an entirely different generation of tools."
+  },
+  {
+    "id": "eneighborhoods",
+    "label": "eNeighborhoods",
+    "company": "eNeighborhoods",
+    "role": "Real estate website design",
+    "description": "At eNeighborhoods, I created real estate websites for agents and brokers connected to Realtor.com. When my manager moved on, I stepped into the team management role. It was a major turning point in my career, giving me leadership experience and building relationships that would open doors for years to come. Separately, a director from eNeighborhoods later started BOOKT."
+  },
+  {
+    "id": "startups-agency",
+    "label": "Startups & Agency",
+    "company": "CTV24 & 304 Media",
+    "role": "Startup & agency web design",
+    "description": "After eNeighborhoods, I spent a brief stretch at CTV24, an online television startup, and 304 Media, a small design agency where I worked as a web designer. My former manager from eNeighborhoods had joined CTV24 and later introduced me to College.com, opening the door to my next chapter."
+  },
+  {
+    "id": "college-com",
+    "label": "College.com",
+    "company": "College.com",
+    "date": {
+      "year": 2007,
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "Social platform development",
+    "description": "College.com was my first experience working in a hybrid setup, helping create a social platform with a Facebook-like concept. People I met there eventually connected me with opportunities involving InstaManager, SkyCig, JoyCig, and SmartMat."
+  },
+  {
+    "id": "bookt",
+    "label": "BOOKT / InstaManager",
+    "company": "BOOKT / InstaManager",
+    "date": {
+      "year": 2008,
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "Startup Product Design, UI/UX & Front-End Development",
+    "description": "I helped shape digital products in the vacation-rental industry, taking ideas from early concepts through design and development.",
+    "dictionary": {
+      "word": "bookt",
+      "pronunciation": "/bʊkt/",
+      "partOfSpeech": "proper noun",
+      "definition": "Pronounced “booked.” A vacation-rental technology startup."
+    },
+    "highlights": [
+      {
+        "label": "BOOKT",
+        "content": [
+          {
+            "text": "Helped build the startup's brand, website, and application experience from the ground up."
+          }
+        ]
+      },
+      {
+        "label": "InstaManager",
+        "content": [
+          {
+            "text": "Contributed to vacation-rental management software, designing interfaces and workflows for property managers."
+          }
+        ]
+      },
+      {
+        "label": "Business Growth",
+        "content": [
+          {
+            "text": "RealPage acquired BOOKT assets, including InstaManager, in January 2014 for a reported "
+          },
+          {
+            "text": "$9.2 million purchase price",
+            "strong": true
+          },
+          {
+            "text": "."
+          }
+        ],
+        "source": {
+          "href": "https://www.sec.gov/Archives/edgar/data/1286225/000128622515000014/rp-20141231x10k.htm",
+          "label": "RealPage SEC filing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "freelance",
+    "label": "Freelance Projects",
+    "company": "Freelance Projects",
+    "date": {
+      "year": 2008,
+      "label": "2008–2012",
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "Product Design, Branding, Web Design & Marketing",
+    "description": "I helped emerging startups bring their products and brands to life through product design, digital experiences, and creative marketing.",
+    "subtitle": "SkyCig, JoyCig & SmartMat",
+    "highlights": [
+      {
+        "label": "SkyCig",
+        "content": [
+          {
+            "text": "Designed product graphics, packaging, websites, and advertising campaigns. Lorillard acquired SkyCig in 2013 for approximately "
+          },
+          {
+            "text": "£30 million upfront",
+            "strong": true
+          },
+          {
+            "text": ", plus up to £30 million in performance-based payments."
+          }
+        ],
+        "source": {
+          "href": "https://www.prnewswire.com/news-releases/lorillard-inc-acquires-british-based-skycig-expanding-its-electronic-cigarette-business-225948541.html",
+          "label": "Lorillard announcement"
+        }
+      },
+      {
+        "label": "JoyCig",
+        "content": [
+          {
+            "text": "Contributed product branding and creative design for the emerging e-cigarette company."
+          }
+        ]
+      },
+      {
+        "label": "SmartMat",
+        "content": [
+          {
+            "text": "Created branding and crowdfunding campaign materials. The campaign raised "
+          },
+          {
+            "text": "$399,407 on Indiegogo",
+            "strong": true
+          },
+          {
+            "text": " against a $110,000 goal (363% funded)."
+          }
+        ],
+        "source": {
+          "href": "https://www.backerkit.com/projects/smartmat-the-world-s-first-intelligent-yoga-mat",
+          "label": "Campaign results"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kigo-realpage",
+    "label": "Kigo / RealPage",
+    "company": "Kigo / RealPage",
+    "date": {
+      "year": 2013,
+      "label": "2013–2019",
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "UI/UX Design, SaaS Products & Team Leadership",
+    "description": "Following the acquisition, I continued designing digital products for the vacation-rental industry, collaborating with product and development teams to improve user experiences.",
+    "highlights": [
+      {
+        "label": "Product Design",
+        "content": [
+          {
+            "text": "Created user flows, wireframes, prototypes, and responsive interfaces for vacation-rental software."
+          }
+        ]
+      },
+      {
+        "label": "Team Leadership",
+        "content": [
+          {
+            "text": "Led a "
+          },
+          {
+            "text": "remote team",
+            "strong": true
+          },
+          {
+            "text": " developing WordPress templates and plugins for a vacation-rental platform."
+          }
+        ]
+      },
+      {
+        "label": "Acquisition & Growth",
+        "content": [
+          {
+            "text": "Kigo was acquired by RealPage in June 2014 for "
+          },
+          {
+            "text": "$36.2 million",
+            "strong": true
+          },
+          {
+            "text": ". I continued designing vacation-rental products and working with teams as the business evolved."
+          }
+        ],
+        "source": {
+          "href": "https://www.sec.gov/Archives/edgar/data/1286225/000128622515000014/rp-20141231x10k.htm",
+          "label": "RealPage SEC filing"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ability",
+    "label": "Ability Commerce",
+    "company": "Ability Commerce",
+    "date": {
+      "year": 2020,
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "UI/UX design & front-end implementation",
+    "description": "In a full-circle career moment, I returned to the company where it all began. Marketing Concepts had evolved into Ability Commerce, and this time I was helping modernize legacy e-commerce applications, redesign workflows, and build interfaces using Angular, TypeScript, and PrimeNG. From Dreamweaver and Fireworks to modern front-end development, quite a journey.",
+    "image": {
+      "src": "/projects/ability-commerce-website/cover-ability-corp.png",
+      "alt": "Ability Commerce corporate website design shown across devices"
+    },
+    "link": {
+      "href": "/work/ability-commerce-website",
+      "label": "Explore the work"
+    }
+  },
+  {
+    "id": "current",
+    "label": "Still Evolving",
+    "company": "RoyVella.com & creative projects",
+    "date": {
+      "label": "Present",
+      "source": "Roy’s verified timeline periods, 2026-10-30."
+    },
+    "role": "Personal work & ongoing exploration",
+    "description": "I'm still designing, building, and learning. These days I'm exploring React, Next.js, creative coding, and AI-assisted development while bringing years of design and front-end experience into whatever comes next.",
+    "link": {
+      "href": "/work",
+      "label": "See what I’ve been making"
+    }
+  }
+]
