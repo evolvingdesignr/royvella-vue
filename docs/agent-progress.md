@@ -2,9 +2,11 @@
 
 ## Current status — November 15, 2026
 
-Vue navigation is already corrected in the existing local commits, now pushed to `evolvingdesignr/royvella-vue` on `main`. Application commit `120a02ca9208086b8f6fce510d8ff4e4d75a46b8` was verified equal to local HEAD, origin/main, and a fresh remote refs/heads/main query. The working tree was clean before this report. This report is the only newly created file for this audit; its commit/push is pending at the time of writing.
+Vue navigation is corrected and publicly deployed at https://royvella-vue.netlify.app. All 14 implemented routes and 17 unique internal destinations passed public HTTP checks; all 284 rendered internal links remain within the Vue application. No missing requested routes or cross-site portfolio links were found.
 
-Netlify's public Vue homepage still served the older revision on the latest check. Push success does not establish deployment success. GitHub returned no deployment statuses or check runs for the application commit. No manual deployment, DNS/domain changes, Next.js changes, or legacy repository changes were performed.
+Roy approved the three existing application commits, pushed through `120a02c`. Audit report commit `786ce91` was also pushed; local main, origin/main, and a fresh remote refs/heads/main query matched, with a clean working tree. This final documentation update records successful public verification and is being committed/pushed separately. Exact final commit/synchronization status is reported in the handoff.
+
+Netlify's public application update is verified through its content and routes; an exact Netlify deploy ID/commit mapping was unavailable. No manual deployment, DNS/domain changes, Next.js changes, or legacy repository changes were performed.
 
 ## Latest completed work
 
@@ -23,9 +25,9 @@ Netlify's public Vue homepage still served the older revision on the latest chec
 - Production-server HTTP smoke checks on port 3104: all 14 implemented routes returned 200; all 17 unique rendered internal destinations returned 200; unknown project slug returned 404.
 - Audited 284 rendered internal links with the Netlify Host header. All stayed on the Vue origin when resolved against https://royvella-vue.netlify.app; no forbidden portfolio-origin links were found.
 - `git diff --check d16adf9..HEAD`: passed. Pending commit diff credential-pattern scan passed; no tracked private npm/env configuration was found.
+- Public deployment checks: all 14 routes returned 200; 284 internal links contained no forbidden origins; all 17 unique internal destinations returned 200. The initially observed stale deployment was superseded automatically after pushing.
 - No interactive browser regression testing was performed. Source was unchanged; HTTP checks do not establish client interaction behavior.
 
 ## Outstanding work
 
-- Verify Netlify automatically publishes the updated main branch, then repeat public route/link checks. At report creation, the public homepage still exposed the old cross-site links. No deployment failure details or build status were available.
-- Commit and push this audit report, then verify branch synchronization again. No additional application changes are needed for this navigation task.
+No navigation issues remain in the source or public HTTP checks. Interactive mobile/menu, mood/ROYGBIV, carousel, and lightbox regression checks were not performed in this audit. No application code was changed during the audit; existing functionality was retained. The contact form still requires a separately approved sending integration.
