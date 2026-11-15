@@ -4013,6 +4013,21 @@ body {
   border-radius: 8px;
 }
 
+@media (max-width:850px) {
+  .project-detail-layout {
+    --work-bottom-height: 84px;
+    /* Keep the footer reachable above the fixed bar, including its border and safe area. */
+    padding-bottom: calc(var(--work-bottom-height) + 1px + env(safe-area-inset-bottom,0px));
+  }
+  .interior-page .project-detail-page>.work-bottom {
+    position: fixed;
+    inset: auto 0 0;
+  }
+  .project-detail-layout .work-bottom-link {
+    height: var(--work-bottom-height);
+  }
+}
+
 .interior-page .work-bottom-link:hover {
   background: var(--surface-muted);
 }

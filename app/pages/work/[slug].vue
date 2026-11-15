@@ -48,10 +48,13 @@ useSeoMeta({
   description: paragraphs.join(' ').trim(),
   robots: project.noIndex ? 'noindex, follow, noimageindex' : undefined,
 })
+useHead({
+  meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' }],
+})
 </script>
 
 <template>
-  <div class="interior-page">
+  <div class="interior-page project-detail-layout">
     <SiteHeader />
     <main id="main-content" class="project-detail-page d-flex flex-column" tabindex="-1">
       <div class="container-fluid shell detail">
