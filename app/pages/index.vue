@@ -123,11 +123,11 @@ function moveDock(event: PointerEvent) {
 }
 
 const specialties = [
-  { label: 'UI/UX Design', icon: 'fa-solid fa-paintbrush', description: 'Intuitive, user-centered experiences' },
-  { label: 'Front-End Development', icon: 'fa-solid fa-code', description: 'HTML, CSS, Angular, TypeScript' },
-  { label: 'Product Strategy', icon: 'fa-regular fa-lightbulb', description: 'Turning ideas into real solutions' },
-  { label: 'Creative Problem Solving', icon: 'fa-solid fa-wand-magic-sparkles', description: 'Bridging design and development' },
-  { label: 'And So Much More!', icon: 'fa-solid fa-rocket', description: 'Always learning and exploring' },
+  { label: 'UI/UX Design', icon: 'fa-sharp fa-light fa-paintbrush', description: 'Intuitive, user-centered experiences' },
+  { label: 'Front-End Development', icon: 'fa-sharp fa-light fa-code', description: 'HTML, CSS, Angular, TypeScript' },
+  { label: 'Product Strategy', icon: 'fa-sharp fa-light fa-lightbulb', description: 'Turning ideas into real solutions' },
+  { label: 'Creative Problem Solving', icon: 'fa-sharp fa-light fa-wand-magic-sparkles', description: 'Bridging design and development' },
+  { label: 'And So Much More!', icon: 'fa-sharp fa-light fa-rocket', description: 'Always learning and exploring' },
 ]
 function finishFeaturedSwipe(event: TouchEvent) {
   const start = touchStart
@@ -423,7 +423,7 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
         @keydown.esc.prevent="closeHeaderMenu(menu, true)"
         @focusout="leaveHeaderMenu($event, menu)"
       >
-        <summary class="home-menu-toggle" aria-label="Menu"><i class="fa-solid fa-bars" aria-hidden="true"></i></summary>
+        <summary class="home-menu-toggle" aria-label="Menu"><i class="fa-sharp fa-light fa-bars" aria-hidden="true"></i></summary>
         <nav
           class="d-flex flex-column gap-0"
           aria-label="Mobile navigation"
@@ -591,8 +591,8 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
                 <div
                   class="carousel-arrows d-flex"
                 >
-                  <button type="button" :disabled="projects.length < 2" aria-label="Previous project" @click="change(-1)"><i class="fa-solid fa-angle-left" aria-hidden="true"></i></button>
-                  <button type="button" :disabled="projects.length < 2" aria-label="Next project" @click="change(1)"><i class="fa-solid fa-angle-right" aria-hidden="true"></i></button>
+                  <button type="button" :disabled="projects.length < 2" aria-label="Previous project" @click="change(-1)"><i class="fa-sharp fa-regular fa-angle-left" aria-hidden="true"></i></button>
+                  <button type="button" :disabled="projects.length < 2" aria-label="Next project" @click="change(1)"><i class="fa-sharp fa-regular fa-angle-right" aria-hidden="true"></i></button>
                 </div>
               </div>
             </div>
@@ -710,7 +710,7 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
             <div
               class="lab-card-art lavender"
             >
-              <i class="fa-solid fa-flask-vial" aria-hidden="true"></i>
+              <i class="fa-sharp fa-solid fa-flask-gear" aria-hidden="true"></i>
             </div>
             <h3>Something's Brewing</h3>
             <p>Experiments, happy accidents, and whatever comes next. Exploring new UI/UX ideas, interactive prototypes, animations, games, and creative coding.</p>
@@ -730,8 +730,8 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
           <div
             class="about-actions d-flex align-items-center flex-wrap row-gap-3 column-gap-4"
           >
-            <a class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap d-inline-flex align-items-center" href="https://www.royvella.com/contact">CONTACT ME<i class="fa-solid fa-arrow-right ms-1" aria-hidden="true"></i></a>
-            <a class="all-work-link" href="https://www.linkedin.com/in/roy-vella" target="_blank" rel="noopener noreferrer">LINKEDIN<i class="fa-solid fa-arrow-right external-link-icon ms-1" aria-hidden="true"></i><span class="visually-hidden"> (opens in a new tab)</span></a>
+            <a class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap d-inline-flex align-items-center" href="https://www.royvella.com/contact">CONTACT ME →</a>
+            <a class="all-work-link" href="https://www.linkedin.com/in/roy-vella" target="_blank" rel="noopener noreferrer">LINKEDIN ↗<span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
         </div>
         <ul

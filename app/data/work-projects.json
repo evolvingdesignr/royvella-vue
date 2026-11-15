@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ability-oms-modernization",
+    "slug": "ability-oms-modernization",
+    "title": "Ability | OMS",
+    "cardSubtitle": "Modernizing legacy enterprise workflows through UI redesign and responsive interfaces.",
+    "cover": "/projects/ability-oms-modernization/cover-ability-oms.png"
+  },
+  {
+    "id": "bookt-instamanager",
+    "slug": "bookt-instamanager",
+    "title": "Bookt / InstaManager",
+    "cardSubtitle": "UI/UX design for an all-in-one vacation rental management platform.",
+    "cover": "/projects/bookt-instamanager/cover-bookt-instamanager.png"
+  },
+  {
+    "id": "kigo-realpage",
+    "slug": "kigo-realpage",
+    "title": "Kigo / RealPage",
+    "cardSubtitle": "Connecting acquired applications and shaping Kigo's next chapter through creative design & development.",
+    "cover": "/projects/kigo-realpage/cover-kigo-realpage.png"
+  },
+  {
+    "id": "ability-web-store",
+    "slug": "ability-web-store",
+    "title": "Ability | Web Store",
+    "cardSubtitle": "Transforming a legacy e-commerce platform with responsive storefronts and streamlined checkout.",
+    "cover": "/projects/ability-web-store/cover.png"
+  },
+  {
+    "id": "ability-pos",
+    "slug": "ability-pos",
+    "title": "Ability | POS",
+    "cardSubtitle": "Redesigning point-of-sale workflows for a modern, responsive checkout experience.",
+    "cover": "/projects/ability-pos/cover-ability-pos.png"
+  },
+  {
+    "id": "ability-commerce-website",
+    "slug": "ability-commerce-website",
+    "title": "Ability | Corporate",
+    "cardSubtitle": "Modernizing the corporate website with responsive layouts and clearer calls to action.",
+    "cover": "/projects/ability-commerce-website/cover-ability-corp.png"
+  },
+  {
+    "id": "ability-digital-marketing",
+    "slug": "ability-digital-marketing",
+    "title": "Ability | Marketing",
+    "cardSubtitle": "Creating digital campaigns, promotional graphics, and advertising across multiple formats.",
+    "cover": "/projects/ability-commerce-marketing/cover.svg"
+  },
+  {
+    "id": "ability-commerce-rimmer",
+    "slug": "ability-commerce-rimmer",
+    "title": "Ability | Rimmer",
+    "cardSubtitle": "Redesigning an e-commerce storefront with improved navigation, search, and responsive layouts.",
+    "cover": "/projects/ability-commerce-rimmer/ability-commerce-rimmer-cover.png"
+  }
+]

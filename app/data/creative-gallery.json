@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rockon",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/RockOn.mp4",
+    "alt": "RockOn! animation",
+    "title": "RockOn!",
+    "poster": "/creative/motion/rockon-poster.jpg",
+    "caption": "Animated promotional banner created for GuitarWorld.com."
+  },
+  {
+    "id": "ctvid",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/ctvID.mp4",
+    "alt": "ctvID animation",
+    "title": "CTV24: Channel ID",
+    "poster": "/creative/motion/ctvid-poster.jpg",
+    "caption": "A creative animated promo showcasing the CTV24 brand and its channels."
+  },
+  {
+    "id": "goodbyeen",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/goodByeEn.mp4",
+    "alt": "goodByeEn animation",
+    "title": "Goodbye, eNeighborhoods!",
+    "poster": "/creative/motion/goodbyeen-poster.jpg",
+    "caption": "A playful animated farewell before starting my next chapter at CTV24."
+  },
+  {
+    "id": "mani",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/mani.mp4",
+    "alt": "mani animation",
+    "title": "Desk Surprise!",
+    "poster": "/creative/motion/mani-poster.jpg",
+    "caption": "Live-action meets 3D animation as a little wooden figure on my desk unexpectedly comes to life."
+  },
+  {
+    "id": "guido",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/guido.mp4",
+    "alt": "guido animation",
+    "title": "Guido Balboa",
+    "poster": "/creative/motion/guido-poster.jpg",
+    "caption": "A playful 3D boxing animation starring my dad."
+  },
+  {
+    "id": "playingames",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/playinGames.mp4",
+    "alt": "playinGames animation",
+    "title": "Playin' Games",
+    "poster": "/creative/motion/playingames-poster.jpg",
+    "caption": "An animated promo for one of CTV24's entertainment channels."
+  },
+  {
+    "id": "roy3d2d",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/roy3D2D.mp4",
+    "alt": "roy3D2D animation",
+    "title": "When 3D Meets 2D",
+    "poster": "/creative/motion/roy3d2d-poster.jpg",
+    "caption": "A playful encounter between my 3D self and my 2D alter ego."
+  },
+  {
+    "id": "royspeaks",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/roySpeaks.mp4",
+    "alt": "roySpeaks animation",
+    "title": "Roy Speaks",
+    "poster": "/creative/motion/royspeaks-poster.jpg",
+    "caption": "A 3D talking-head experiment featuring a digital version of myself."
+  },
+  {
+    "id": "studiorv",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/studioRv.mp4",
+    "alt": "studioRv animation",
+    "title": "The Original Studio",
+    "poster": "/creative/motion/studiorv-poster.jpg",
+    "caption": "A trip back to my first creative workspace, recreated in 3D."
+  },
+  {
+    "id": "rvcom",
+    "category": "motion-3d",
+    "type": "video",
+    "src": "/creative/motion/rvcom.mp4",
+    "alt": "rvcom animation",
+    "title": "RoyVella.com: The Intro",
+    "poster": "/creative/motion/rvcom-poster.jpg",
+    "caption": "An early 3D animated intro created for my personal videos."
+  }
+]

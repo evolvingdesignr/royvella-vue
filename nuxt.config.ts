@@ -6,11 +6,11 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      link: [
+      script: [
         {
-          rel: 'stylesheet',
-          href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css',
+          src: 'https://kit.fontawesome.com/3f7e6cfc2d.js',
           crossorigin: 'anonymous',
+          defer: true,
         },
       ],
     },
