@@ -2,12 +2,6 @@
 const year = new Date().getFullYear()
 // Preserve the reference footer's release label until Vue has its own changelog.
 const currentVersion = 'v0.004'
-const navigation = [
-  { name: 'Work', href: '/work' },
-  { name: 'About', href: '/about' },
-  { name: 'Lab', href: '/lab' },
-  { name: 'Contact', href: '/contact' },
-]
 const socials: { name: string; icon: string; href?: string }[] = [
   { name: 'GitHub', icon: 'fa-brands fa-github' },
   { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', href: 'https://www.linkedin.com/in/roy-vella' },
@@ -28,7 +22,10 @@ const activeSocials = socials.filter(social => social.href?.trim())
         </NuxtLink>
       </div>
       <nav class="d-flex flex-wrap gap-4 small" aria-label="Footer navigation">
-        <NuxtLink v-for="link in navigation" :key="link.href" :href="link.href">{{ link.name }}</NuxtLink>
+        <NuxtLink href="/work">Work</NuxtLink>
+        <NuxtLink href="/about">About</NuxtLink>
+        <NuxtLink href="/lab">Lab</NuxtLink>
+        <NuxtLink href="/contact">Contact</NuxtLink>
         <NuxtLink href="/changelog" class="footer-changelog-link">
           Changelog · <span class="footer-changelog-version">{{ currentVersion }}</span>
         </NuxtLink>

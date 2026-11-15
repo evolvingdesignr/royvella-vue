@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import projects from '~/data/work-projects.json'
+import projects from '~/data/projects.json'
 
 const categories = [
   { id: 'ui-ux-dev', label: 'UI/UX Dev' },
@@ -47,13 +47,13 @@ useSeoMeta({ title: 'Selected Work | Roy Vella', description: 'Selected UI/UX, f
         <div id="work-results" role="region" :aria-label="`${category.label} collection`">
           <div v-if="category.id === 'ui-ux-dev'" class="row work-grid">
             <div v-for="project in projects" :key="project.id" class="col-12 work-project-column d-flex">
-              <a :href="`https://www.royvella.com/work/${project.slug}`" class="project-card work-card d-flex flex-column">
+              <NuxtLink :href="`/work/${project.slug}`" class="project-card work-card d-flex flex-column">
                 <div class="project-card-image"><img :src="project.cover" :alt="project.title" loading="lazy" width="800" height="600"></div>
                 <div class="project-card-info d-flex justify-content-between align-items-start">
                   <div class="work-card-copy"><h2>{{ project.title }}</h2><p v-if="project.cardSubtitle">{{ project.cardSubtitle }}</p></div>
                   <span class="work-card-arrow flex-shrink-0" aria-hidden="true">↗</span>
                 </div>
-              </a>
+              </NuxtLink>
             </div>
           </div>
           <CreativeGallery v-else :key="category.id" :category="category.id" :media-id="mediaId" @media-change="changeMedia" />

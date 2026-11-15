@@ -2,6 +2,9 @@ body {
   background-color: #f5f7fa;
 }
 
+/* Retained foundation demo; Bootstrap handles width and centering. */
+.portfolio-welcome { max-width: 56rem; }
+
 /* Shared content width; Bootstrap utilities handle horizontal centering. */
 
 .site-container {
@@ -3567,20 +3570,6 @@ body {
   }
 }
 
-.interior-page .creative-viewer-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-}
-
-.interior-page .creative-viewer-buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 16px;
-}
-
 .interior-page .creative-viewer-nav span {
   font-size: 12px;
   white-space: nowrap;
@@ -3631,3 +3620,610 @@ body {
 @media (max-width: 600px) {
   .interior-page .lab-creative-collections { margin-top: 40px; }
 }
+
+/* Project details: original gallery, content hierarchy, prototype and sticky navigation. */
+.interior-page .detail {
+  padding-top: 23px;
+}
+
+.interior-page .product-layout {
+  display: grid;
+  align-items: start;
+}
+
+.interior-page .gallery-main {
+  position: relative;
+  overflow: hidden;
+}
+
+.interior-page .gallery-controls {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 15px;
+  pointer-events: none;
+}
+
+.interior-page .gallery-controls button {
+  pointer-events: auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border-neutral);
+  background: white;
+  cursor: pointer;
+}
+
+.interior-page .gallery-controls span {
+  background: var(--white);
+  padding: 9px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+}
+
+.interior-page .thumb {
+  cursor: pointer;
+  text-align: left;
+}
+
+.interior-page .thumb small {
+  display: block;
+  font-size: 10px;
+  color: var(--ink-secondary);
+}
+
+.interior-page .details {
+  padding-top: 14px;
+}
+
+.interior-page .details h1 {
+  font-size: clamp(35px,3.5vw,54px);
+}
+
+.interior-page .summary {
+  font-size: 14px;
+  color: var(--ink-muted);
+  line-height: 1.65;
+  margin: 0 0 28px;
+}
+
+@media (max-width:850px) {
+  .interior-page .details {
+    padding-top: 0;
+  }
+}
+
+.interior-page .tool-list {
+  gap: 10px 16px;
+}
+
+.interior-page .tool-item {
+  font-size: 13px;
+  line-height: 1.7;
+  min-width: 0;
+}
+
+.interior-page .tool-item span {
+  overflow-wrap: anywhere;
+}
+
+.interior-page .tool-icon {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  color: currentColor;
+}
+
+.interior-page .gallery-main {
+  aspect-ratio: 1;
+  min-height: 0;
+  width: 100%;
+  border-radius: 16px;
+  background: #f0f1f3;
+}
+
+.interior-page .gallery-expand {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 24px 24px 64px;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.interior-page .gallery-expand img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.interior-page .gallery-expand-hint {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  border-radius: 20px;
+  background: rgba(255,255,255,.9);
+  padding: 8px 12px;
+  color: var(--ink-secondary);
+  font-size: 11px;
+}
+
+.interior-page .gallery-expand:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: -5px;
+  border-radius: 16px;
+}
+
+.interior-page .gallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,104px);
+  gap: 16px;
+  overflow: visible;
+  padding: 0;
+  margin-top: 18px;
+  align-items: start;
+}
+
+.interior-page .gallery-thumbs .thumb {
+  width: 104px;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  flex: none;
+  background: transparent;
+}
+
+.interior-page .gallery-thumbs .thumb-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f0f1f3;
+  border: 2px solid transparent;
+  overflow: hidden;
+}
+
+.interior-page .gallery-thumbs .thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+}
+
+.interior-page .gallery-thumbs .thumb.active {
+  border: 0;
+}
+
+.interior-page .gallery-thumbs .thumb.active .thumb-image {
+  border-color: var(--ink);
+}
+
+.interior-page .gallery-thumbs .thumb small {
+  line-height: 1.4;
+  height: 40px;
+  padding: 8px 0 0;
+  overflow: hidden;
+}
+
+.interior-page .gallery-thumbs .thumb:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 4px;
+  border-radius: 12px;
+}
+
+.interior-page .gallery-lightbox {
+  padding: 48px 24px 18px;
+  border: 0;
+  border-radius: 16px;
+  background: #f0f1f3;
+  color: var(--ink);
+  max-width: 94vw;
+  max-height: 94dvh;
+  overflow: auto;
+}
+
+.interior-page .gallery-lightbox::backdrop {
+  background: rgba(0,0,0,.78);
+}
+
+.interior-page .gallery-lightbox>img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(1200px,86vw);
+  max-height: 75dvh;
+  object-fit: contain;
+  margin: auto;
+}
+
+.interior-page .gallery-lightbox p {
+  text-align: center;
+  font-size: 12px;
+  margin: 14px 0 0;
+}
+
+.interior-page .lightbox-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border-neutral);
+  border-radius: 50%;
+  background: var(--white);
+  cursor: pointer;
+}
+
+.interior-page .gallery-main {
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+.interior-page .gallery-thumbs {
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+.interior-page .product-layout {
+  grid-template-columns: minmax(0,560px) minmax(310px,440px);
+  gap: clamp(32px,4vw,64px);
+  justify-content: center;
+}
+
+@media (max-width:850px) {
+  .interior-page .product-layout {
+    grid-template-columns: minmax(0,1fr);
+  }
+}
+
+.interior-page .details {
+  min-width: 0;
+}
+
+.interior-page .project-header {
+  margin-bottom: 24px;
+}
+
+.interior-page .project-company {
+  gap: 4px 10px;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--ink-muted);
+  margin: 12px 0 0;
+}
+
+.interior-page .project-company span {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  color: var(--ink-muted);
+}
+
+.interior-page .details > .problems-solved, .interior-page .detail-section {
+  padding: 24px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.interior-page .problems-solved h2, .interior-page .detail-section h2, .interior-page .bookt-intro-heading {
+  font-size: 10px;
+  letter-spacing: .14em;
+  color: var(--ink-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.interior-page .detail-section p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.interior-page .project-summary + .detail-section {
+  margin-top: 24px;
+  border-top: 1px solid #eaeaea;
+}
+
+.interior-page .detail-tools {
+  border-bottom: 0;
+}
+
+.interior-page .problems-solved ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--ink-muted);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.interior-page .problems-solved li+li {
+  margin-top: 8px;
+}
+
+.interior-page .tool-item {
+  max-width: 100%;
+}
+
+.interior-page .bookt-highlight {
+  display: grid;
+  grid-template-columns: 22px minmax(0,1fr);
+  gap: 12px;
+  align-items: start;
+}
+
+.interior-page .bookt-highlights .bookt-highlight>i, .interior-page .bookt-highlights .bookt-highlight>svg {
+  font-size: 21px;
+  width: 22px;
+  height: 22px;
+  color: var(--ink);
+  margin-top: 1px;
+}
+
+.interior-page .bookt-highlights h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+
+.interior-page .project-detail-page {
+  min-height: calc(100svh - 86px);
+}
+
+.interior-page .project-detail-page>.detail {
+  width: 100%;
+  flex: 1;
+}
+
+@media (max-width:850px) {
+  .interior-page .project-detail-page {
+    min-height: calc(100svh - 78px);
+  }
+}
+
+.interior-page .project-detail-page>.work-bottom {
+  position: sticky;
+  bottom: 0;
+  flex-shrink: 0;
+  z-index: 30;
+  background: rgba(255,255,255,.96);
+  border-top: 1px solid #e2e2e2;
+  padding: 0 max(20px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(20px,env(safe-area-inset-left,0px));
+  backdrop-filter: blur(12px);
+}
+
+.interior-page .work-bottom-inner {
+  max-width: 1064px;
+}
+
+.interior-page .work-bottom-link {
+  gap: 16px;
+  min-width: 0;
+  height: 84px;
+  padding: 12px 16px;
+  border-radius: 8px;
+}
+
+.interior-page .work-bottom-link:hover {
+  background: var(--surface-muted);
+}
+
+.interior-page .work-bottom-link:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: -5px;
+  background: var(--surface-muted);
+}
+
+.interior-page .work-bottom-arrow {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.interior-page .work-bottom-copy {
+  min-width: 0;
+  gap: 5px;
+}
+
+.interior-page .work-bottom-direction {
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.interior-page .work-bottom-title {
+  font-size: 13px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width:480px) {
+  .interior-page .work-bottom-link {
+    gap: 10px;
+    padding-inline: 6px;
+  }
+  .interior-page .work-bottom-title {
+    font-size: 11px;
+  }
+}
+
+@media (max-width:360px) {
+  .interior-page .work-bottom-title {
+    display: none;
+  }
+}
+
+.interior-page .work-bottom-link.all-work {
+  gap: 10px;
+}
+
+.interior-page .work-bottom-link.all-work .work-bottom-direction {
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+@media (max-width:480px) {
+  .interior-page .work-bottom-link.all-work {
+    gap: 6px;
+    padding-inline: 8px;
+  }
+}
+
+.interior-page .project-summary > .summary:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.interior-page .project-summary > .summary:last-child {
+  margin-bottom: 0;
+}
+
+.interior-page .storefront-links {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0 0;
+  gap: 12px 20px;
+  font-size: 12px;
+}
+
+.interior-page .storefront-links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.interior-page .project-visuals {
+  min-width: 0;
+}
+
+.interior-page .project-prototype {
+  max-width: 560px;
+  margin: 32px auto 0;
+  padding: 24px;
+  border: 1px solid var(--border-neutral);
+  border-radius: 16px;
+  background: #f0f1f3;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.interior-page .prototype-preview {
+  display: block;
+  flex: 0 0 96px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.interior-page .prototype-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.interior-page .prototype-copy {
+  min-width: 0;
+}
+
+.interior-page .prototype-eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  color: var(--ink-muted);
+  margin: 0 0 12px;
+}
+
+.interior-page .prototype-title {
+  font-size: 24px;
+  letter-spacing: -.03em;
+  line-height: 1.15;
+  margin: 0 0 12px;
+}
+
+.interior-page .prototype-description {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+  margin: 0 0 20px;
+}
+
+.interior-page .prototype-cta {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--white);
+  border-radius: 24px;
+  padding: 12px 18px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.interior-page .prototype-cta:hover {
+  color: var(--white);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.interior-page .prototype-preview:focus-visible, .interior-page .prototype-cta:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}
+
+@media (max-width:480px) {
+  .interior-page .project-prototype {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .interior-page .prototype-preview {
+    flex-basis: auto;
+    width: 96px;
+  }
+}
+
+.interior-page .project-sections>:first-child {
+  margin-top: 0;
+}
+
+.interior-page .project-sections>:not(:first-child) {
+  margin-top: 32px;
+}
+
+.interior-page .project-content-text, .interior-page .project-content-gallery {
+  max-width: 560px;
+  margin-inline: auto;
+}
+
+.interior-page .project-content-text h2, .interior-page .project-content-gallery>h2 {
+  font-size: 20px;
+  letter-spacing: -.03em;
+  margin: 0 0 16px;
+}
+
+.interior-page .project-content-text p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink-secondary);
+  margin: 0 0 16px;
+}
+
+.interior-page .inline-emphasis {
+  font-weight: 600;
+  color: inherit;
+}
+
+.interior-page .gallery-sections > section { margin-top: 28px; }
+.interior-page .gallery-sections h2 { font-size: 14px; font-weight: 600; margin: 0 0 14px; }
+.interior-page .gallery-sections .gallery-thumbs { margin-top: 0; }
+.interior-page .gallery-sections .thumb small { height: auto; min-height: 40px; }

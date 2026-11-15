@@ -8,7 +8,7 @@ const message = computed(() =>
 </script>
 
 <template>
-  <section class="welcome card shadow-sm p-4 p-md-5" aria-labelledby="welcome-title">
+  <section class="portfolio-welcome card shadow-sm w-100 mx-auto p-4 p-md-5" aria-labelledby="welcome-title">
     <h1 id="welcome-title" class="display-5 fw-bold mb-3">RoyVella.com | Vue Edition</h1>
     <p class="lead text-secondary mb-3">Built with Vue 3, Nuxt, TypeScript &amp; Bootstrap 5</p>
     <p class="lead text-secondary mb-4" aria-live="polite">{{ message }}</p>
@@ -21,9 +21,4 @@ const message = computed(() =>
 </template>
 
 <style scoped>
-.welcome {
-  width: 100%;
-  max-width: 56rem;
-  margin-inline: auto;
-}
 </style>

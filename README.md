@@ -23,15 +23,19 @@ npm run preview    # Serve the completed build locally
 
 ### Development conventions
 
-Keep everything as simple and maintainable as possible. Follow these conventions for all future development:
+Build this site as an experienced UI/UX designer and traditional front-end developer would: semantic HTML first, Bootstrap 5, CSS, and straightforward JavaScript. Favor the simplest maintainable solution that accomplishes the requirement. Do not overengineer the project or default to complex AI-generated architecture.
+
+Follow these conventions for all future development:
 
 1. **Bootstrap 5 first:** Prefer existing Bootstrap classes for layout, grid, spacing, alignment, typography, responsive behavior, and utilities. Do not create custom CSS when Bootstrap provides an appropriate solution.
-2. **Font Awesome first:** Prefer the Sharp family for standard UI icons whenever the configured CSS/webfonts support it, for example `fa-sharp fa-solid fa-envelope` or `fa-sharp fa-light fa-bars`. Verify the exact family, style, and icon are available before using them. Keep `fa-brands` for brand icons; Sharp does not apply to Brands. When Sharp is unavailable, retain the closest supported icon rather than adding an unsupported class. Use built-in Font Awesome CSS classes, such as `fa-brands fa-linkedin`, `fa-brands fa-github`, and `fa-solid fa-envelope`. Do not create, download, or reference individual SVG files or use image elements for UI icons. Original logos, illustrations, project artwork, and custom reference icons are exempt; reuse the exact original assets when visual fidelity requires them.
+2. **Font Awesome Pro first:** Use the existing Pro configuration and prefer the Sharp family for standard UI icons whenever the configured CSS/webfonts support it, for example `fa-sharp fa-solid fa-envelope` or `fa-sharp fa-light fa-bars`. Verify the exact family, style, and icon are available before using them. Keep `fa-brands` for brand icons; Sharp does not apply to Brands. When Sharp is unavailable, retain the closest supported icon rather than adding an unsupported class. Use built-in Font Awesome CSS classes, such as `fa-brands fa-linkedin`, `fa-brands fa-github`, and `fa-solid fa-envelope`. Do not create, download, or reference individual SVG files or use image elements for UI icons. Original logos, illustrations, project artwork, and custom reference icons are exempt; reuse the exact original assets when visual fidelity requires them.
 3. **Global stylesheet:** Place necessary custom styling and overrides in `app/assets/css/styles.css`. Bootstrap loads first. Avoid `!important` unless an actual CSS conflict justifies it.
 4. **Scoped style placeholder:** Every Vue page and component must include an empty `<style scoped>` block, even when no component-specific styling is required. Preserve it as a placeholder for future use; keep current custom styles in the master stylesheet.
-5. **Minimal complexity:** Avoid unnecessary components, composables, abstractions, dependencies, JavaScript, and CSS. Do not add unnecessary JavaScript merely to populate the script section.
-6. **Readable markup:** Prefer semantic HTML, straightforward Vue syntax, and Bootstrap classes. Keep code easy to understand for a developer transitioning from older Angular. Use Vue for behavior and Nuxt where useful for routing, layouts, SEO, and server functionality.
-7. **Preserve existing designs:** Do not change appearance or functionality simply to enforce these conventions.
+5. **Minimal complexity:** Avoid unnecessary arrays, loops, computed properties, composables, components, abstractions, dependencies, JavaScript, and CSS. Keep JavaScript and TypeScript simple enough to understand and maintain. Do not add unnecessary JavaScript merely to populate the script section.
+6. **Readable markup:** Write clean, readable semantic HTML first. Prefer explicit markup for simple, fixed layouts. Use Vue directives and reactive logic only when they provide a clear benefit, and Nuxt where useful for routing, layouts, SEO, and server functionality. Keep code easy to understand for a developer transitioning from older Angular.
+7. **Preserve existing designs:** Preserve the Next.js site's appearance and functionality without copying unnecessary implementation complexity. Do not refactor working code merely to make it more abstract or technically sophisticated, or change its design simply to enforce these conventions.
+
+The project navigation in `app/pages/work/[slug].vue` demonstrates the preferred style: one Bootstrap `row` with three explicit links using `col-4 text-start`, `col-4 text-center`, and `col-4 text-end`. Previous and next titles and destinations stay dynamic, with first/last wraparound, while the fixed layout needs no navigation array or `v-for`. Use this approach when explicit markup makes a simple layout easier to read.
 
 Standard Vue file structure:
 
@@ -55,7 +59,9 @@ This project uses Nuxt 4 with Vue 3 and TypeScript.
 
 - `app/app.vue`: the outer application shell. `NuxtPage` displays the page matching the URL.
 - `app/pages/index.vue`: the homepage at `/`. Nuxt creates routes from files in `pages/`; no manual router setup is needed. This page also sets its browser title and description.
-- `app/pages/work.vue`: URL-driven portfolio categories, project listing, and links to live project detail pages.
+- `app/pages/work/index.vue`: URL-driven portfolio categories and the project listing.
+- `app/pages/work/[slug].vue`: one dynamic detail page for all eight records in `app/data/projects.json`; unknown slugs return 404.
+- `app/components/ProjectGallery.vue`: shared detail-image gallery, grouped thumbnails, and native-dialog enlargement.
 - `app/pages/lab.vue`: the reference Lab introduction, Motion / 3D collection, and Drawings & Sketches empty state.
 - `app/components/SiteHeader.vue`: shared interior-page header for Work and Lab; the homepage keeps its distinct hero header.
 - `app/components/CreativeGallery.vue`: shared native-dialog media viewer. Work controls selection through its query string; Lab uses local selection without changing the URL.
@@ -94,9 +100,13 @@ Work and Lab now reuse the interior header, footer, gallery, and native-dialog v
 
 The viewer supports previous/next wraparound, Escape/backdrop close, focus restoration, playback cleanup, and native-size media fitting. Work preserves category/media query navigation and browser history behavior; Lab selection stays local. Font Awesome Pro 7.3.1 is loaded through the existing JavaScript Kit, with exact Sharp classes and no duplicate Free stylesheet or added packages.
 
+## Project detail pages
+
+All eight published projects use one dynamic Nuxt detail page with the original copy and artwork. It preserves grouped storefront thumbnails and links, image enlargement, Bookt highlights, Kigo’s Adobe XD prototype, circular previous/next navigation, and Rimmer’s noindex metadata. Detail styling stays in the global stylesheet; the Work filters and query behavior are unchanged.
+
 Remaining work and verification limits:
 
-- Project detail routes, `/about`, `/contact`, and `/changelog` are not implemented locally. Work cards and the interior header use the live portfolio where needed. Some homepage/footer links still target those unfinished local routes. The homepage Lab links, interior navigation, and Lab “View in Work” links now use the implemented local pages.
+- `/about`, `/contact`, and `/changelog` are not implemented locally. The interior header uses the live portfolio where needed. Work cards and homepage featured projects now use local detail routes. Some homepage/footer links still target those unfinished local routes. The homepage Lab links, interior navigation, and Lab “View in Work” links now use the implemented local pages.
 - The reference’s Pro 7.3.1 JavaScript Kit is now configured in Nuxt, replacing the Free 6.7.2 stylesheet. Sharp classes match the reference. Browser checks for rendered icons, Vue hydration, reactive updates, and client-side navigation remain required; no custom lifecycle integration has been added without an observed conflict.
 - The shared interior header still lacks the reference’s mobile mood selector. Local Nitro serves full MP4 files rather than byte ranges; real-browser video seeking remains unverified.
 - Dock targets match the reference, but CSS easing approximates its spring animation. The footer credit correctly identifies Vue + Nuxt; social entries without URLs remain hidden.

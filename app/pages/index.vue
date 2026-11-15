@@ -1,48 +1,10 @@
 <script setup lang="ts">
 import avatarArtwork from '~/assets/artwork/hero-avatar.svg?raw'
+import projectEntries from '~/data/projects.json'
 
-const projects = [
-  {
-    "id": "ability-commerce-website",
-    "slug": "ability-commerce-website",
-    "title": "Ability | Corporate",
-    "cover": "/projects/ability-commerce-website/cover-ability-corp.png",
-    "company": "Ability Commerce",
-    "disciplines": [
-      "UI/UX Design",
-      "Responsive Web Design",
-      "Web Development"
-    ],
-    "cardSubtitle": "Modernizing the corporate website with responsive layouts and clearer calls to action."
-  },
-  {
-    "id": "ability-oms-modernization",
-    "slug": "ability-oms-modernization",
-    "title": "Ability | OMS",
-    "cover": "/projects/ability-oms-modernization/cover-ability-oms.png",
-    "company": "Ability Commerce",
-    "disciplines": [
-      "UI/UX Design",
-      "Responsive Design",
-      "Front-End Development"
-    ],
-    "cardSubtitle": "Modernizing legacy enterprise workflows through UI redesign and responsive interfaces."
-  },
-  {
-    "id": "bookt-instamanager",
-    "slug": "bookt-instamanager",
-    "title": "Bookt / InstaManager",
-    "cover": "/projects/bookt-instamanager/cover-bookt-instamanager.png",
-    "company": "Bookt / InstaManager",
-    "disciplines": [
-      "UI/UX Design",
-      "Enterprise Application Design",
-      "Website Design",
-      "Branding & Marketing"
-    ],
-    "cardSubtitle": "UI/UX design for an all-in-one vacation rental management platform."
-  }
-]
+// Keep the reference's featured order; content comes from the shared project records.
+const projects = ['ability-commerce-website', 'ability-oms-modernization', 'bookt-instamanager']
+  .map(slug => projectEntries.find(project => project.slug === slug)!)
 const index = ref(0)
 const project = computed(() => projects[index.value]!)
 const roles = ['UI/UX Designer', 'Father', 'HTML/CSS Expert', 'Husband', 'Front-End Developer', 'Artist', 'Problem Solver', 'Creator', 'Always Evolving']
@@ -122,13 +84,6 @@ function moveDock(event: PointerEvent) {
   })
 }
 
-const specialties = [
-  { label: 'UI/UX Design', icon: 'fa-sharp fa-light fa-paintbrush', description: 'Intuitive, user-centered experiences' },
-  { label: 'Front-End Development', icon: 'fa-sharp fa-light fa-code', description: 'HTML, CSS, Angular, TypeScript' },
-  { label: 'Product Strategy', icon: 'fa-sharp fa-light fa-lightbulb', description: 'Turning ideas into real solutions' },
-  { label: 'Creative Problem Solving', icon: 'fa-sharp fa-light fa-wand-magic-sparkles', description: 'Bridging design and development' },
-  { label: 'And So Much More!', icon: 'fa-sharp fa-light fa-rocket', description: 'Always learning and exploring' },
-]
 function finishFeaturedSwipe(event: TouchEvent) {
   const start = touchStart
   touchStart = null
@@ -570,7 +525,7 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
           @touchend.passive="finishFeaturedSwipe"
           @touchcancel.passive="touchStart = null"
         >
-          <a class="featured-art" :href="`https://www.royvella.com/work/${project.slug}`" :aria-label="`View ${project.title}`"><img :src="project.cover" :alt="project.title" width="800" height="600"></a>
+          <NuxtLink class="featured-art" :href="`/work/${project.slug}`" :aria-label="`View ${project.title}`"><img :src="project.cover" :alt="project.title" width="800" height="600"></NuxtLink>
           <div
             class="featured-copy"
           >
@@ -613,8 +568,8 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
             <div
               class="featured-bottom d-flex align-items-center flex-wrap row-gap-3 column-gap-4"
             >
-              <a class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap" :href="`https://www.royvella.com/work/${project.slug}`">VIEW PROJECT →</a>
-              <a class="all-work-link" href="https://www.royvella.com/work">VIEW ALL WORK ↗</a>
+              <NuxtLink class="btn btn-dark rounded-pill border-0 fw-bold text-nowrap" :href="`/work/${project.slug}`">VIEW PROJECT →</NuxtLink>
+              <NuxtLink class="all-work-link" href="/work">VIEW ALL WORK ↗</NuxtLink>
             </div>
           </div>
         </div>
@@ -737,17 +692,40 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
         <ul
           class="about-skills list-unstyled"
         >
-          <li
-            v-for="specialty in specialties"
-            :key="specialty.label"
-          >
-            <div
-              class="specialty-heading d-flex align-items-center"
-            >
-              <i :class="specialty.icon" aria-hidden="true"></i>
-              <h3>{{ specialty.label }}</h3>
+          <li>
+            <div class="specialty-heading d-flex align-items-center">
+              <i class="fa-sharp fa-light fa-paintbrush" aria-hidden="true"></i>
+              <h3>UI/UX Design</h3>
             </div>
-            <p class="specialty-description">{{ specialty.description }}</p>
+            <p class="specialty-description">Intuitive, user-centered experiences</p>
+          </li>
+          <li>
+            <div class="specialty-heading d-flex align-items-center">
+              <i class="fa-sharp fa-light fa-code" aria-hidden="true"></i>
+              <h3>Front-End Development</h3>
+            </div>
+            <p class="specialty-description">HTML, CSS, Angular, TypeScript</p>
+          </li>
+          <li>
+            <div class="specialty-heading d-flex align-items-center">
+              <i class="fa-sharp fa-light fa-lightbulb" aria-hidden="true"></i>
+              <h3>Product Strategy</h3>
+            </div>
+            <p class="specialty-description">Turning ideas into real solutions</p>
+          </li>
+          <li>
+            <div class="specialty-heading d-flex align-items-center">
+              <i class="fa-sharp fa-light fa-wand-magic-sparkles" aria-hidden="true"></i>
+              <h3>Creative Problem Solving</h3>
+            </div>
+            <p class="specialty-description">Bridging design and development</p>
+          </li>
+          <li>
+            <div class="specialty-heading d-flex align-items-center">
+              <i class="fa-sharp fa-light fa-rocket" aria-hidden="true"></i>
+              <h3>And So Much More!</h3>
+            </div>
+            <p class="specialty-description">Always learning and exploring</p>
           </li>
         </ul>
         <img class="about-avatar" src="/assets/avatars/about-avatar.png" alt="Full-body illustrated Roy in a black shirt, jeans and red sneakers" width="167" height="288" loading="lazy">

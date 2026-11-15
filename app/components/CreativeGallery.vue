@@ -145,9 +145,9 @@ onBeforeUnmount(() => {
         <h3 v-if="selected.title" id="creative-viewer-title">{{ selected.title }}</h3>
         <p v-if="selected.caption" id="creative-viewer-caption">{{ selected.caption }}</p>
       </div>
-      <nav v-if="collection.length > 1" class="creative-viewer-nav" aria-label="Artwork navigation">
+      <nav v-if="collection.length > 1" class="creative-viewer-nav d-flex flex-column align-items-center gap-3" aria-label="Artwork navigation">
         <span role="status" aria-live="polite">{{ position + 1 }} / {{ collection.length }}</span>
-        <div class="creative-viewer-buttons">
+        <div class="d-flex justify-content-center flex-wrap gap-3">
           <button type="button" class="btn btn-dark d-inline-flex align-items-center gap-2" aria-label="Previous artwork" @click="moveMedia(-1)"><i class="fa-sharp fa-light fa-arrow-left" aria-hidden="true"></i>Previous</button>
           <button type="button" class="btn btn-dark d-inline-flex align-items-center gap-2" aria-label="Next artwork" @click="moveMedia(1)">Next<i class="fa-sharp fa-light fa-arrow-right" aria-hidden="true"></i></button>
         </div>

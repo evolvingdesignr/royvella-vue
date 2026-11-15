@@ -1,0 +1,556 @@
+[
+  {
+    "id": "ability-oms-modernization",
+    "slug": "ability-oms-modernization",
+    "title": "Ability | OMS",
+    "cardSubtitle": "Modernizing legacy enterprise workflows through UI redesign and responsive interfaces.",
+    "company": "Ability Commerce",
+    "workstream": "CCS enterprise platform modernization",
+    "category": "Enterprise Application Modernization",
+    "disciplines": [
+      "UI/UX Design",
+      "Responsive Design",
+      "Front-End Development"
+    ],
+    "summary": "I helped transform Ability Commerce's legacy order management system into a modern, responsive web application. My work ranged from hand-drawn sketches and Adobe XD designs to implementing interface updates with Angular, TypeScript, and Bootstrap. I worked with developers in Agile sprints, using Jira to track tasks and issues.",
+    "role": [
+      "UI/UX Design",
+      "Front-End Development"
+    ],
+    "tools": [
+      "Adobe XD",
+      "Visual Studio",
+      "Angular",
+      "TypeScript",
+      "PrimeNG",
+      "Bootstrap",
+      "HTML",
+      "CSS",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-oms-modernization/cover-ability-oms.png",
+    "gallery": [
+      {
+        "src": "/projects/ability-oms-modernization/oms-sku-history-before-after.png",
+        "alt": "Side-by-side comparison of the legacy CCS Inventory SKU History desktop interface and the redesigned cloud interface with sales charts and inventory information",
+        "label": "SKU History Chart - Before & After"
+      },
+      {
+        "src": "/projects/ability-oms-modernization/ccs-customer-maintenance-sketch-to-ui.png",
+        "alt": "Customer Maintenance hand-drawn wireframe alongside the Adobe XD interface design",
+        "label": "Customer Maintenance | Sketch to UI Design"
+      },
+      {
+        "src": "/projects/ability-oms-modernization/ccs-password-management-before-after.png",
+        "alt": "Side-by-side comparison of legacy Ability CCS Define Users and redesigned User Maintenance interfaces with user details, roles, and permissions",
+        "label": "User Maintenance | Before & After"
+      }
+    ],
+    "relatedIds": [],
+    "problemsSolved": [
+      "Modernized outdated screens and complex workflows.",
+      "Simplified navigation and improved UI consistency across modules.",
+      "Redesigned interfaces to work across different screen sizes."
+    ],
+    "caveat": "Platform scope, disciplines, tools and Problems Solved supplied by Roy. Inventory Maintenance scope and platform scale retained from original record; individual module implementation/contribution and cleaner exports remain unverified. Standalone module record and unused assets removed; module scope retained here. Gallery includes Inventory Maintenance before/after and Customer Maintenance sketch/UI comparisons. No metrics or accessibility compliance claims."
+  },
+  {
+    "id": "bookt-instamanager",
+    "slug": "bookt-instamanager",
+    "title": "Bookt / InstaManager",
+    "cardSubtitle": "UI/UX design for an all-in-one vacation rental management platform.",
+    "company": "Bookt / InstaManager",
+    "workstream": "Enterprise Application & Website Design",
+    "category": "Enterprise Application & Website Design",
+    "disciplines": [
+      "UI/UX Design",
+      "Enterprise Application Design",
+      "Website Design",
+      "Branding & Marketing"
+    ],
+    "summary": [
+      "Bookt began as a startup with a vision to simplify the vacation rental industry by bringing reservations, accounting, marketing, maintenance, property management, and customer-facing websites together into one connected platform.",
+      "I helped build the company's creative identity and digital experiences from the ground up, from branding and marketing to enterprise UI/UX applications and custom client websites. As Bookt evolved into InstaManager, the company was ultimately acquired by RealPage."
+    ],
+    "role": [
+      "UI/UX Design",
+      "Enterprise Application Design",
+      "Website Design",
+      "Branding & Marketing"
+    ],
+    "tools": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Fireworks",
+      "Visual Studio",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "WordPress"
+    ],
+    "status": "published",
+    "cover": "/projects/bookt-instamanager/cover-bookt-instamanager.png",
+    "gallery": [
+      {
+        "src": "/projects/bookt-instamanager/bookt-instamanager-detail-1.png",
+        "alt": "Bookt / InstaManager vacation rental platform design details",
+        "label": "Bookt / InstaManager \u2014 design details"
+      }
+    ],
+    "relatedIds": [],
+    "modules": [
+      {
+        "title": "Branding & Marketing",
+        "summary": "Created logos, visual identity, advertising, signage, trade show materials, and corporate websites."
+      },
+      {
+        "title": "Application UI/UX",
+        "summary": "Designed role-based dashboards, reporting interfaces, navigation, and workflows for managing daily operations."
+      },
+      {
+        "title": "Websites & Templates",
+        "summary": "Designed custom client websites and reusable templates with integrated property listings, rental searches, and booking."
+      },
+      {
+        "title": "Platform Evolution",
+        "summary": "Helped transition from a proprietary CMS to WordPress, simplifying website management for clients."
+      }
+    ]
+  },
+  {
+    "id": "kigo-realpage",
+    "slug": "kigo-realpage",
+    "title": "Kigo / RealPage",
+    "cardSubtitle": "Connecting acquired applications and shaping Kigo's next chapter through creative design & development.",
+    "company": "Kigo / RealPage",
+    "workstream": "Product Design & Development",
+    "category": "Product Design & Development",
+    "disciplines": [
+      "Product & UI Integration",
+      "UX Design & Style Guides",
+      "Front-End & Web Development"
+    ],
+    "summary": [
+      "Following RealPage's acquisitions of Bookt / InstaManager and Kigo, I contributed to the platform's evolution through hands-on UI/UX design, front-end development, and creative problem-solving.",
+      "My work included integrating acquired applications, refining navigation across modules, designing additional application interfaces, developing client-facing websites and custom WordPress plugins, and supporting the eventual RealPage branding transition.",
+      "This period also introduced me to more structured design and development processes, including Agile/Scrum workflows, Jira, Sketch, and style guides."
+    ],
+    "role": [
+      "Product & UI Integration",
+      "UX Design & Style Guides",
+      "Front-End & Web Development"
+    ],
+    "tools": [
+      "Sketch",
+      "Adobe XD",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Visual Studio",
+      "JavaScript",
+      "WordPress",
+      "Jira",
+      "Chrome Lighthouse",
+      "Web Accessibility"
+    ],
+    "status": "published",
+    "cover": "/projects/kigo-realpage/cover-kigo-realpage.png",
+    "gallery": [
+      {
+        "src": "/projects/kigo-realpage/cover-kigo-realpage.png",
+        "alt": "Kigo / RealPage \u2014 Designing a Connected Platform",
+        "label": "Designing a Connected Platform"
+      },
+      {
+        "src": "/projects/kigo-realpage/sketch-mock-booking-details.png",
+        "alt": "Hand-drawn booking and payment workflow sketch alongside the Kigo booking detail UI design comp",
+        "label": "Sketch to Mockup - Booking Details"
+      }
+    ],
+    "relatedIds": [],
+    "sections": [
+      {
+        "id": "overview-gallery",
+        "type": "gallery"
+      },
+      {
+        "id": "site-builder",
+        "type": "prototype",
+        "prototype": {
+          "eyebrow": "INTERACTIVE PROTOTYPE",
+          "title": "Explore the Site Builder",
+          "description": "An interactive Adobe XD prototype demonstrating a portion of the custom WordPress plugin's site setup and customization workflow for Kigo websites.",
+          "buttonLabel": "Launch Prototype",
+          "href": "https://xd.adobe.com/view/728667e6-6917-4706-a9dd-db9dd8532e44-27d5/?fullscreen",
+          "preview": {
+            "src": "/projects/kigo-realpage/kigo-wp-custom-site-setup.gif",
+            "alt": "Kigo Discovery WordPress customizer showing site setup, global settings, styles, menus, widgets, and slideshow options"
+          },
+          "platform": "Adobe XD"
+        }
+      }
+    ],
+    "summaryEmphasis": [
+      "UI/UX design",
+      "front-end development",
+      "integrating acquired applications",
+      "client-facing websites",
+      "custom WordPress plugins",
+      "Agile/Scrum workflows",
+      "Jira",
+      "Sketch",
+      "style guides"
+    ]
+  },
+  {
+    "id": "ability-web-store",
+    "slug": "ability-web-store",
+    "title": "Ability | Web Store",
+    "cardSubtitle": "Transforming a legacy e-commerce platform with responsive storefronts and streamlined checkout.",
+    "company": "Ability Commerce",
+    "workstream": "Web store design and development",
+    "category": "E-commerce Design",
+    "disciplines": [
+      "UI/UX Design",
+      "Responsive Design",
+      "Front-End Development",
+      "Accessibility"
+    ],
+    "summary": "I designed web store management interfaces and customer-facing shopping experiences, covering theme customization, product categories, merchandising, cart, and checkout.",
+    "problemsSolved": [
+      "Simplified store setup and theme customization.",
+      "Improved product organization and checkout flows.",
+      "Designed responsive storefronts for desktop and mobile.",
+      "Evaluated storefront accessibility using Google Lighthouse and WAVE."
+    ],
+    "role": [
+      "UI/UX Design",
+      "Responsive Design",
+      "Front-End Development"
+    ],
+    "tools": [
+      "Adobe XD",
+      "Visual Studio",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Angular",
+      "PrimeNG",
+      "Google Lighthouse",
+      "WAVE",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-web-store/cover.png",
+    "gallery": [
+      {
+        "src": "/projects/ability-web-store/theme-selection.png",
+        "alt": "Original Adobe XD export showing theme selection",
+        "label": "Theme Selection \u00b7 XD design",
+        "section": "Web Store Administration"
+      },
+      {
+        "src": "/projects/ability-web-store/category-display-settings.png",
+        "alt": "Original Adobe XD export showing category display settings",
+        "label": "Category Display Settings \u00b7 XD design",
+        "section": "Web Store Administration"
+      },
+      {
+        "src": "/projects/ability-web-store/items-in-category.png",
+        "alt": "Original Adobe XD export showing items in category",
+        "label": "Items in Category \u00b7 XD design",
+        "section": "Web Store Administration"
+      },
+      {
+        "src": "/projects/ability-web-store/homepage-hero-banner-configuration.png",
+        "alt": "Original Adobe XD export showing homepage hero banner configuration",
+        "label": "Homepage Hero Banner Configuration \u00b7 XD design",
+        "section": "Web Store Administration"
+      },
+      {
+        "src": "/projects/ability-web-store/homepage-content-navigation.png",
+        "alt": "Original Adobe XD export showing homepage content / navigation",
+        "label": "Homepage Content / Navigation \u00b7 XD design",
+        "section": "Web Store Administration"
+      },
+      {
+        "src": "/projects/ability-web-store/product-detail.png",
+        "alt": "Original Adobe XD export showing product detail",
+        "label": "Product Detail \u00b7 XD design",
+        "section": "Storefront & Checkout UX"
+      },
+      {
+        "src": "/projects/ability-web-store/shopping-cart.png",
+        "alt": "Original Adobe XD export showing shopping cart",
+        "label": "Shopping Cart \u00b7 XD design",
+        "section": "Storefront & Checkout UX"
+      },
+      {
+        "src": "/projects/ability-web-store/checkout-sign-in.png",
+        "alt": "Original Adobe XD export showing checkout sign-in",
+        "label": "Checkout Sign-In \u00b7 XD design",
+        "section": "Storefront & Checkout UX"
+      },
+      {
+        "src": "/projects/ability-web-store/checkout-payment.png",
+        "alt": "Original Adobe XD export showing checkout payment",
+        "label": "Checkout Payment \u00b7 XD design",
+        "section": "Storefront & Checkout UX"
+      },
+      {
+        "src": "/projects/ability-web-store/empty-cart.png",
+        "alt": "Original Adobe XD export showing empty cart",
+        "label": "Empty Cart \u00b7 XD design",
+        "section": "Storefront & Checkout UX"
+      },
+      {
+        "src": "/projects/ability-web-store/ability-qa-full.jpg",
+        "alt": "Ability Commerce QA storefront homepage captured from its Azure environment",
+        "label": "Ability Commerce QA \u00b7 Existing capture",
+        "section": "Storefront Examples",
+        "href": "https://ccsqaabilitywebstore.azurewebsites.net/"
+      },
+      {
+        "src": "/projects/ability-web-store/ability-commerce-rimmer-full.jpg",
+        "alt": "Ability Commerce | Rimmer storefront homepage captured from its Azure environment",
+        "label": "Ability Commerce | Rimmer \u00b7 Existing capture",
+        "section": "Storefront Examples",
+        "href": "https://ccswebstore-rimmerbros.azurewebsites.net/"
+      },
+      {
+        "src": "/projects/ability-web-store/abbeon-full.jpg",
+        "alt": "Abbeon storefront homepage captured from its Azure environment",
+        "label": "Abbeon \u00b7 Existing capture",
+        "section": "Storefront Examples",
+        "href": "https://ccswebstore-abbeon.azurewebsites.net/"
+      }
+    ],
+    "relatedIds": [],
+    "caveat": "Combines checkout and storefront theming. Original XD exports are designs; existing Azure captures document appearance, not public launch. Ability Commerce | Rimmer is awaiting client launch. Standalone project records retired. Cover copied unchanged from the Desktop portfolio images archive. Designed customer-facing storefronts with accessibility requirements, using Google Lighthouse and WAVE to evaluate accessibility and work toward a Lighthouse score of 100. The Lighthouse score of 100 is a target, not a verified result or formal accessibility compliance claim."
+  },
+  {
+    "id": "ability-pos",
+    "slug": "ability-pos",
+    "title": "Ability | POS",
+    "cardSubtitle": "Redesigning point-of-sale workflows for a modern, responsive checkout experience.",
+    "company": "Ability Commerce",
+    "workstream": "POS System",
+    "category": "Enterprise Application Design",
+    "disciplines": [
+      "UI/UX Design",
+      "Product Design",
+      "Interaction Design",
+      "Enterprise Application Design",
+      "Front-End Development"
+    ],
+    "summary": [
+      "I helped redesign Ability Commerce's legacy point-of-sale system into a modern, responsive interface. I spent time in retail stores using actual checkout stations to understand cashier workflows, then applied those insights to sketches, wireframes, and UI designs.",
+      "I worked with developers to create a more intuitive checkout experience across devices."
+    ],
+    "problemsSolved": [
+      "Simplified everyday checkout tasks and navigation.",
+      "Improved the flow for payments, returns, and customer lookups.",
+      "Redesigned the interface for different screen sizes."
+    ],
+    "role": [
+      "UI/UX Design",
+      "Wireframing",
+      "Interaction Design",
+      "Component Design",
+      "Prototyping",
+      "Developer Collaboration"
+    ],
+    "tools": [
+      "Adobe XD",
+      "Figma",
+      "Angular",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-pos/cover-ability-pos.png",
+    "gallery": [
+      {
+        "src": "/projects/ability-pos/cover-ability-pos.png",
+        "alt": "Ability Commerce POS design presentation featuring the main interface, item entry, and payment confirmation",
+        "label": "POS system overview"
+      },
+      {
+        "src": "/projects/ability-pos/pos-interface-01.png",
+        "alt": "Ability Commerce POS main screen, item entry interface, and checkout payment options",
+        "label": "Main interface, items, and checkout"
+      },
+      {
+        "src": "/projects/ability-pos/pos-card-checkout-flow.png",
+        "alt": "Ability Commerce card checkout flow showing insert or swipe, processing, and payment confirmation with receipt options",
+        "label": "Card checkout flow"
+      },
+      {
+        "src": "/projects/ability-pos/pos-artboards.png",
+        "alt": "Overview of Ability Commerce POS artboards arranged in Adobe XD, showing interface screens and transaction workflow states",
+        "label": "Adobe XD artboard overview"
+      }
+    ],
+    "relatedIds": []
+  },
+  {
+    "id": "ability-commerce-website",
+    "slug": "ability-commerce-website",
+    "title": "Ability | Corporate",
+    "cardSubtitle": "Modernizing the corporate website with responsive layouts and clearer calls to action.",
+    "company": "Ability Commerce",
+    "workstream": "Corporate Website Design",
+    "category": "Corporate Website Design",
+    "disciplines": [
+      "UI/UX Design",
+      "Responsive Web Design",
+      "Web Development"
+    ],
+    "summary": "I redesigned Ability Commerce's corporate website with a focus on responsive layouts, clearer navigation, and stronger calls to action. My work included wireframes, Adobe XD designs, and website implementation.",
+    "role": [
+      "UI/UX Design",
+      "Responsive Web Design",
+      "Web Development"
+    ],
+    "tools": [
+      "Adobe XD",
+      "WordPress",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-commerce-website/cover-ability-corp.png",
+    "gallery": [
+      {
+        "src": "/projects/ability-commerce-website/ability-commerce-responsive-ui-mockup.png",
+        "alt": "Ability Commerce responsive website design shown on desktop and mobile devices",
+        "label": "Responsive desktop and mobile design"
+      },
+      {
+        "src": "/projects/ability-commerce-website/ac-home-page.png",
+        "alt": "Full Ability Commerce desktop homepage design with order management, POS, product management, and calls to action",
+        "label": "Full desktop homepage"
+      },
+      {
+        "src": "/projects/ability-commerce-website/one-click-landing-flow.png",
+        "alt": "Ability Commerce one-click signup flow showing desktop form, error and success states, and mobile layout",
+        "label": "One-click signup flow and mobile layout"
+      }
+    ],
+    "relatedIds": [],
+    "caveat": "Corporate website design scope confirmed by Roy Vella. Gallery uses Roy\u2019s original responsive presentation, full desktop homepage export, and one-click signup flow presentation supplied in public/projects/ability-commerce-website. The mobile homepage appears in the responsive composition; no separate full mobile homepage export was supplied.",
+    "problemsSolved": [
+      "Updated the dated website design.",
+      "Organized product and service content for easier browsing.",
+      "Kept layouts and calls to action consistent across desktop and mobile."
+    ]
+  },
+  {
+    "id": "ability-digital-marketing",
+    "slug": "ability-digital-marketing",
+    "title": "Ability | Marketing",
+    "cardSubtitle": "Creating digital campaigns, promotional graphics, and advertising across multiple formats.",
+    "company": "Ability Commerce",
+    "workstream": "Digital Ads",
+    "category": "Digital Marketing",
+    "disciplines": [
+      "Graphic Design",
+      "Digital Advertising"
+    ],
+    "summary": "Over the years, I designed hundreds of digital ads for Ability Commerce to promote its CCS and OMS software. These are just a few examples of that work, including banner ads in different sizes and layouts, all while keeping the branding consistent and the messaging clear.",
+    "role": [
+      "Display Ad Design"
+    ],
+    "tools": [
+      "Adobe XD",
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-commerce-marketing/cover.svg",
+    "gallery": [
+      {
+        "src": "/projects/ability-commerce-marketing/trial-square.png",
+        "label": "Free trial \u00b7 600 \u00d7 600",
+        "alt": "Free trial \u00b7 600 \u00d7 600 Ability Commerce CCS display ad"
+      },
+      {
+        "src": "/projects/ability-commerce-marketing/upgrade-rectangle.png",
+        "label": "Upgrade \u00b7 300 \u00d7 250",
+        "alt": "Upgrade \u00b7 300 \u00d7 250 Ability Commerce CCS display ad"
+      },
+      {
+        "src": "/projects/ability-commerce-marketing/oms-vertical.png",
+        "label": "OMS benefits \u00b7 300 \u00d7 600",
+        "alt": "OMS benefits \u00b7 300 \u00d7 600 Ability Commerce CCS display ad"
+      },
+      {
+        "src": "/projects/ability-commerce-marketing/trial-banner.png",
+        "label": "Free trial \u00b7 728 \u00d7 90",
+        "alt": "Free trial \u00b7 728 \u00d7 90 Ability Commerce CCS display ad"
+      },
+      {
+        "src": "/projects/ability-commerce-marketing/upgrade-skyscraper.png",
+        "label": "Upgrade \u00b7 160 \u00d7 600",
+        "alt": "Upgrade \u00b7 160 \u00d7 600 Ability Commerce CCS display ad"
+      }
+    ],
+    "relatedIds": [
+      "ability-commerce-website"
+    ],
+    "problemsSolved": [
+      "Adapted campaign designs to fit different advertising sizes and placements.",
+      "Kept branding and messaging consistent across multiple ads.",
+      "Made complex software products easier to promote through clear visuals and concise messaging."
+    ]
+  },
+  {
+    "id": "ability-commerce-rimmer",
+    "slug": "ability-commerce-rimmer",
+    "title": "Ability | Rimmer",
+    "cardSubtitle": "Redesigning an e-commerce storefront with improved navigation, search, and responsive layouts.",
+    "company": "Ability Commerce | Rimmer",
+    "workstream": "CCS Webstore modernization",
+    "category": "E-commerce Design",
+    "disciplines": [
+      "UI/UX Design",
+      "Responsive Design",
+      "Front-End Development"
+    ],
+    "summary": "I redesigned the storefront to make it responsive across devices, with a larger search bar, improved navigation, and a refreshed homepage featuring prominent vehicle imagery.",
+    "role": [
+      "UI/UX Design",
+      "Front-End Development"
+    ],
+    "tools": [
+      "Adobe XD",
+      "Visual Studio",
+      "HTML",
+      "CSS",
+      "Angular",
+      "PrimeNG",
+      "Bootstrap",
+      "Jira"
+    ],
+    "status": "published",
+    "cover": "/projects/ability-commerce-rimmer/ability-commerce-rimmer-cover.png",
+    "gallery": [
+      {
+        "src": "/projects/ability-commerce-rimmer/ability-commerce-rimmer-comparison.png",
+        "alt": "Comparison of the original Ability Commerce | Rimmer website with the redesigned responsive storefront displayed on tablet and mobile devices",
+        "label": "Original Website vs. Responsive Redesign"
+      }
+    ],
+    "relatedIds": [],
+    "caveat": "XD homepage and browsing exports represent the design stage. The original legacy XD reference is preserved off-gallery. Current live screenshot is from rimmerbros.com; responsive desktop/mobile captures are from the updated Azure CCS Webstore awaiting client launch. No generated or reconstructed interfaces.",
+    "problemsSolved": [
+      "Made the storefront responsive across desktop, tablet, and mobile.",
+      "Made product search more prominent.",
+      "Simplified vehicle browsing with larger imagery and clearer navigation."
+    ],
+    "noIndex": true
+  }
+]

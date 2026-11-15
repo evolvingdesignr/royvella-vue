@@ -1,0 +1,179 @@
+[
+  {
+    "aliases": [
+      "sketch"
+    ],
+    "classes": "fa-brands fa-sketch"
+  },
+  {
+    "aliases": [
+      "chrome lighthouse"
+    ],
+    "classes": "fa-brands fa-chrome"
+  },
+  {
+    "aliases": [
+      "web accessibility"
+    ],
+    "classes": "fa-sharp fa-solid fa-universal-access"
+  },
+  {
+    "aliases": [
+      "google lighthouse",
+      "lighthouse"
+    ],
+    "src": "/assets/brands/google-lighthouse.svg",
+    "attribution": "Official Google Lighthouse logo. Source: https://github.com/GoogleChrome/lighthouse/blob/main/assets/lighthouse-logo.svg — Apache-2.0. Original SVG unchanged."
+  },
+  {
+    "aliases": [
+      "wave",
+      "wave accessibility evaluation tool"
+    ],
+    "src": "/assets/brands/wave.svg",
+    "attribution": "Official WAVE logo © WebAIM. Source: https://wave.webaim.org/img/wavelogo.svg. Original SVG unchanged."
+  },
+  {
+    "aliases": [
+      "wordpress",
+      "word press"
+    ],
+    "classes": "fa-brands fa-wordpress"
+  },
+  {
+    "aliases": [
+      "angular",
+      "angularjs",
+      "angular.js"
+    ],
+    "classes": "fa-brands fa-angular"
+  },
+  {
+    "aliases": [
+      "bootstrap"
+    ],
+    "classes": "fa-brands fa-bootstrap"
+  },
+  {
+    "aliases": [
+      "react",
+      "react.js",
+      "reactjs"
+    ],
+    "classes": "fa-brands fa-react"
+  },
+  {
+    "aliases": [
+      "github",
+      "git hub"
+    ],
+    "classes": "fa-brands fa-github"
+  },
+  {
+    "aliases": [
+      "jira",
+      "atlassian jira"
+    ],
+    "classes": "fa-brands fa-jira"
+  },
+  {
+    "aliases": [
+      "html",
+      "html5",
+      "html 5"
+    ],
+    "classes": "fa-brands fa-html5"
+  },
+  {
+    "aliases": [
+      "css",
+      "css3",
+      "css 3"
+    ],
+    "classes": "fa-brands fa-css3-alt"
+  },
+  {
+    "aliases": [
+      "javascript",
+      "js"
+    ],
+    "classes": "fa-brands fa-js"
+  },
+  {
+    "aliases": [
+      "git"
+    ],
+    "classes": "fa-brands fa-git-alt"
+  },
+  {
+    "aliases": [
+      "node.js",
+      "nodejs"
+    ],
+    "classes": "fa-brands fa-node-js"
+  },
+  {
+    "aliases": [
+      "figma"
+    ],
+    "classes": "fa-brands fa-figma"
+  },
+  {
+    "aliases": [
+      "adobe xd",
+      "xd",
+      "adobe",
+      "adobe photoshop",
+      "adobe illustrator",
+      "adobe fireworks"
+    ],
+    "viewBox": "-345.9 275.5 45.8 40.5",
+    "paths": [
+      "M-317 275.5H-300.1V316Z",
+      "M-328.9 275.5H-345.9V316Z",
+      "M-323 290.4L-312.2 316H-319.3L-322.5 307.8H-330.4Z"
+    ],
+    "attribution": "Adobe corporate symbol © Adobe. Source: https://main--cc--adobecom.aem.live/cc-shared/assets/img/adobe-corp-logo.svg. Original geometry; monochrome display and trimmed padding."
+  },
+  {
+    "aliases": [
+      "visual studio",
+      "microsoft visual studio"
+    ],
+    "viewBox": "8 8 177 177",
+    "paths": [
+      "M40.6211 157.524L11.2134 135.467C10.2965 134.786 9.55244 133.899 9.04142 132.877C8.5304 131.855 8.26668 130.728 8.27155 129.586V63.4144C8.26668 62.2721 8.5304 61.1447 9.04142 60.1232C9.55244 59.1016 10.2965 58.2145 11.2134 57.5334L40.6211 35.4762C39.8311 36.218 39.2341 37.1414 38.8819 38.1663C38.5297 39.1912 38.433 40.2865 38.6001 41.3572V151.643C38.433 152.714 38.5297 153.809 38.8819 154.834C39.2341 155.859 39.8311 156.782 40.6211 157.524Z",
+      "M181.456 38.8951C180.244 38.0992 178.825 37.6773 177.375 37.682C176.436 37.6744 175.504 37.8522 174.634 38.2052C173.763 38.5581 172.971 39.0793 172.302 39.7388L171.789 40.2544L113.117 96.5001L80.6548 127.637L50.6212 156.421L50.1057 156.937C49.4375 157.597 48.6453 158.119 47.7747 158.473C46.904 158.826 45.9721 159.004 45.0325 158.996C43.4419 158.993 41.8948 158.477 40.6211 157.524L11.2134 135.467C12.7075 136.589 14.5731 137.1 16.4305 136.895C18.2879 136.69 19.9973 135.785 21.2108 134.364L53.8554 96.4642L80.6548 65.3637L127.601 10.8439C128.282 10.0365 129.132 9.38792 130.091 8.94356C131.05 8.4992 132.094 8.26983 133.151 8.27152C134.601 8.26684 136.02 8.68874 137.231 9.48467L181.456 38.8951Z",
+      "M181.456 154.105L137.342 183.515C135.841 184.495 134.037 184.901 132.261 184.658C130.486 184.415 128.857 183.539 127.675 182.192L80.6548 127.637L53.8554 96.4642L21.2108 58.5975C19.9865 57.1909 18.2755 56.2994 16.4211 56.102C14.5668 55.9046 12.7064 56.416 11.2134 57.5334L40.6211 35.4762C41.8948 34.5234 43.4419 34.007 45.0325 34.0038C45.9721 33.9959 46.904 34.1738 47.7747 34.5272C48.6453 34.8807 49.4375 35.4028 50.1057 36.0634L50.6212 36.579L80.6548 65.3637L113.117 96.5001L171.789 152.746L172.302 153.261C172.971 153.921 173.763 154.442 174.634 154.795C175.504 155.148 176.436 155.326 177.375 155.318C178.825 155.323 180.244 154.901 181.456 154.105Z",
+      "M184.729 45.0325V147.968C184.73 149.181 184.432 150.376 183.861 151.446C183.29 152.517 182.464 153.43 181.456 154.105L137.342 183.515C138.35 182.84 139.176 181.926 139.747 180.855C140.317 179.784 140.615 178.589 140.614 177.375V15.6248C140.598 14.4022 140.281 13.2025 139.691 12.1316C139.101 11.0607 138.256 10.1516 137.231 9.48467L181.456 38.8951C182.461 39.5728 183.286 40.4866 183.856 41.5565C184.427 42.6265 184.726 43.8199 184.729 45.0325Z"
+    ],
+    "attribution": "Visual Studio product symbol © Microsoft. Source: https://visualstudio.microsoft.com/wp-content/uploads/2021/10/Product-Icon.svg. Original path geometry; monochrome display."
+  },
+  {
+    "aliases": [
+      "primeng",
+      "prime ng"
+    ],
+    "viewBox": "0 0 57 61",
+    "paths": [
+      "M28.3 0L0.072876 10.0264L4.3782 47.2026L28.3 60.4L52.2218 47.2026L56.5271 10.0264L28.3 0Z M36.5739 28.6458L33.8661 28.0443L35.9722 31.0519V40.3756L43.193 34.3603V24.1344L39.8835 25.3374L36.5739 28.6458Z M19.7252 28.6458L22.433 28.0443L20.327 31.0519V40.3756L13.1061 34.3603V24.1344L16.4157 25.3374L19.7252 28.6458Z M21.2 31.6164L23.6 28L25.1 28.9041H31.1L32.6 28L35 31.6164V45.1781L33.2 47.8904L31.1 50H25.1L23 47.8904L21.2 45.1781V31.6164Z M35.9722 46.0901L39.8835 42.1802V38.2702L35.9722 41.5786V46.0901Z M20.327 46.0901L16.4157 42.1802V38.2702L20.327 41.5786V46.0901Z M24.2383 10.6L21.8313 16.3145L25.7426 27.7435H27.5478V10.6H24.2383ZM28.7513 10.6V27.7435H30.8574L34.4678 16.3145L32.0609 10.6H28.7513Z M25.7426 27.7435L12.8052 22.9313L11 15.4122L22.1322 16.3145L26.0435 27.7435H25.7426Z M30.8574 27.7435L43.7948 22.9313L45.6 15.4122L34.167 16.3145L30.5565 27.7435H30.8574Z M35.0696 15.4122L41.3878 14.8107L37.1756 10.6H32.9635L35.0696 15.4122Z M21.2296 15.4122L14.9113 14.8107L19.1235 10.6H23.3357L21.2296 15.4122Z"
+    ],
+    "fillRule": "evenodd",
+    "attribution": "PrimeNG symbol © PrimeTek. Shield with original mascot paths used as negative space. Source: https://www.primefaces.org/presskit/primeng-logo-black.svg. Original path geometry; monochrome display."
+  },
+  {
+    "aliases": [
+      "typescript",
+      "next.js",
+      "nextjs"
+    ],
+    "classes": "fa-solid fa-code"
+  },
+  {
+    "aliases": [
+      "sql",
+      "database"
+    ],
+    "classes": "fa-solid fa-database"
+  }
+]
