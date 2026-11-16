@@ -21,7 +21,7 @@ Nuxt usually serves the site at http://localhost:3000.
 ## Check before publishing
 
 ```sh
-npm run test:gallery
+npm test
 npm run validate:gallery
 npm run typecheck
 npm run build
@@ -50,6 +50,10 @@ Keep the code easy to read and maintain:
 - Keep an empty `<style scoped>` block in Vue components as a placeholder for future local styles.
 
 Gallery ordering and exclusion rules are documented in [AGENTS.md](AGENTS.md). Release background is in [docs/releases/v0.0.0.1.md](docs/releases/v0.0.0.1.md); older review documents are retained as history.
+
+## Contact form
+
+The Contact page uses Netlify Forms with a static form definition and accessible submission feedback. After publishing, Netlify **form detection**, verified test submissions, and notifications to roy@royvella.com must be configured and checked in the dashboard. See [Contact verification](docs/contact-netlify.md). This release does not promise an automatic visitor reply.
 
 ## Hosting
 
