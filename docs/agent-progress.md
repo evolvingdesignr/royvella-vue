@@ -1,9 +1,15 @@
 # Agent progress
 
-## Current release
+## Current state — November 16, 2026
 
-**v0.0.0.1 — Hello, World.** completes the approved 67-piece Art & Design gallery. See [release documentation](releases/v0.0.0.1.md) for scope, final checks, and deployment boundaries. Public verification passed for all 14 routes and all 134 artwork images/thumbnails at https://royvella-vue.netlify.app after release commit `d8114ee`. The gallery contains 67 pieces. Local and remote `main` were synchronized; no domains or Next.js resources were changed. Interactive browser regression remains unverified because the browser host was unavailable. Earlier milestone notes below retain their original historical context.
+- **v0.0.0.1 — Hello, World.** is the current display release of the Vue/Nuxt portfolio at https://www.royvella.com.
+- The Art & Design gallery contains **66 published pieces**; the removed “Portrait Apparel — Red” artwork does not appear in the catalog. Six traditional drawings lead the gallery, followed by character studies. Aruba, PCS Panthers, and ImageLab/NTICE/SKY/MC Cup are grouped as approved.
+- The React/Next.js experiment is separately hosted at https://royvella-next.netlify.app and maintains matching creative gallery metadata.
+- The footer shows only “Changelog · v0.0.0.1”; “Hello, World.” remains the release title on the changelog page.
+- Repository housekeeping: trimmed the current README and Vue .gitignore, updated guidance, and removed the unused PortfolioWelcome starter counter.
+- These current edits were committed through GitHub. **No local test/build run or new public deployment verification was performed for this housekeeping pass.** Earlier validation results below refer to the earlier 67-piece release and must not be treated as current verification.
 
+## Historical milestones (kept for reference)
 ## Earlier navigation milestone — November 15, 2026
 
 Vue navigation is corrected and publicly deployed at https://royvella-vue.netlify.app. All 14 implemented routes and 17 unique internal destinations passed public HTTP checks; all 284 rendered internal links remain within the Vue application. No missing requested routes or cross-site portfolio links were found.
