@@ -7,7 +7,11 @@
     "build": "nuxt build",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "validate:gallery": "node scripts/validate-creative-gallery.mjs",
+    "test:gallery": "node --test tests/creative-gallery-exclusions.test.mjs",
+    "prebuild": "npm run validate:gallery",
+    "predev": "npm run validate:gallery"
   },
   "engines": {
     "node": "^22.22.3 || ^24.15.0 || >=26.0.0"

@@ -25,7 +25,7 @@ useSeoMeta({
         </section>
         <section aria-labelledby="lab-drawings-title">
           <div class="creative-section-heading d-flex align-items-baseline justify-content-between flex-wrap">
-            <h2 id="lab-drawings-title">Drawings &amp; Sketches</h2>
+            <h2 id="lab-drawings-title">Art &amp; Design</h2>
             <NuxtLink href="/work?category=drawings-sketches">View in Work ↗</NuxtLink>
           </div>
           <CreativeGallery category="drawings-sketches" :show-empty-title="false" />

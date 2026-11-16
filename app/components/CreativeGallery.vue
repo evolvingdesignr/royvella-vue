@@ -10,6 +10,9 @@ type CreativeItem = {
   title?: string
   caption?: string
   poster?: string
+  thumbnail?: string
+  width?: number
+  height?: number
   captions?: { src: string; language: string; label: string }
 }
 const items: CreativeItem[] = creativeEntries
@@ -20,7 +23,7 @@ const props = withDefaults(defineProps<{
 }>(), { showEmptyTitle: true })
 const emit = defineEmits<{ 'media-change': [id: string | null, replace: boolean] }>()
 const localMediaId = ref<string | null>(null)
-const label = computed(() => props.category === 'motion-3d' ? 'Motion / 3D' : 'Drawings & Sketches')
+const label = computed(() => props.category === 'motion-3d' ? 'Motion / 3D' : 'Art & Design')
 const collection = computed(() => items.filter(item => item.category === props.category))
 const selected = computed(() => collection.value.find(item => item.id === (props.mediaId === undefined ? localMediaId.value : props.mediaId)))
 const position = computed(() => collection.value.findIndex(item => item.id === selected.value?.id))
@@ -57,6 +60,13 @@ function closeViewer() { return changeMedia(null, true) }
 function moveMedia(direction: number) {
   const next = collection.value[(position.value + direction + collection.value.length) % collection.value.length]
   if (next) return changeMedia(next.id, true)
+}
+function onViewerKeydown(event: KeyboardEvent) {
+  if (props.category !== 'drawings-sketches' || !selected.value || event.altKey || event.ctrlKey || event.metaKey) return
+  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+    event.preventDefault()
+    moveMedia(event.key === 'ArrowLeft' ? -1 : 1)
+  }
 }
 function measureStage() {
   const bounds = stage.value?.getBoundingClientRect()
@@ -119,17 +129,17 @@ onBeforeUnmount(() => {
     <h2 v-if="showEmptyTitle">{{ label }}</h2>
     <p>No artwork has been added yet. This space is reserved for the upcoming collection.</p>
   </div>
-  <div v-else class="creative-grid" :class="{ 'creative-grid-motion': category === 'motion-3d' }" :aria-label="`${label} gallery`">
+  <div v-else class="creative-grid" :class="{ 'creative-grid-motion': category === 'motion-3d', 'creative-grid-drawings': category === 'drawings-sketches' }" :aria-label="`${label} gallery`">
     <figure v-for="(item, i) in collection" :key="item.id" class="creative-card">
       <button :id="`creative-open-${item.id}`" type="button" class="creative-open" aria-haspopup="dialog" :aria-label="`${item.type === 'video' ? 'Play' : 'Enlarge'} ${item.title ?? item.alt}`" @click="openMedia(item, $event)">
-        <img v-if="item.type === 'image' || item.poster" :src="item.poster || item.src" :alt="item.alt" loading="lazy" decoding="async">
+        <img v-if="item.type === 'image' || item.poster" :src="item.thumbnail || item.poster || item.src" :alt="item.alt" :width="item.width" :height="item.height" loading="lazy" decoding="async">
         <span v-else class="creative-video-placeholder">Video {{ i + 1 }}</span>
         <span class="creative-open-hint" aria-hidden="true">{{ item.type === 'video' ? '▶ Play' : 'Enlarge ↗' }}</span>
       </button>
       <figcaption v-if="item.title || item.caption"><h3 v-if="item.title">{{ item.title }}</h3><p v-if="item.caption">{{ item.caption }}</p></figcaption>
     </figure>
   </div>
-  <dialog ref="dialog" class="creative-viewer" :aria-label="selected?.title ? undefined : selected?.alt" :aria-labelledby="selected?.title ? 'creative-viewer-title' : undefined" :aria-describedby="selected?.caption ? 'creative-viewer-caption' : undefined" @cancel.prevent="closeViewer" @click="clickBackdrop">
+  <dialog ref="dialog" class="creative-viewer" :aria-label="selected?.title ? undefined : selected?.alt" :aria-labelledby="selected?.title ? 'creative-viewer-title' : undefined" :aria-describedby="selected?.caption ? 'creative-viewer-caption' : undefined" @cancel.prevent="closeViewer" @click="clickBackdrop" @keydown="onViewerKeydown">
     <button type="button" class="creative-close" aria-label="Close artwork viewer" autofocus @click="closeViewer">✕</button>
     <div ref="stage" class="creative-media-stage">
       <template v-if="selected">
@@ -157,4 +167,13 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+.creative-grid-drawings .creative-open {
+  aspect-ratio: 4 / 3;
+}
+.creative-grid-drawings .creative-open img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+}
 </style>

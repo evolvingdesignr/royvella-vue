@@ -1,6 +1,10 @@
 # Agent progress
 
-## Current status — November 15, 2026
+## Current release
+
+**v0.0.0.1 — Hello, World.** completes the approved 67-piece Art & Design gallery. See [release documentation](releases/v0.0.0.1.md) for scope, final checks, and deployment boundaries. Earlier milestone notes below retain their original historical context.
+
+## Earlier navigation milestone — November 15, 2026
 
 Vue navigation is corrected and publicly deployed at https://royvella-vue.netlify.app. All 14 implemented routes and 17 unique internal destinations passed public HTTP checks; all 284 rendered internal links remain within the Vue application. No missing requested routes or cross-site portfolio links were found.
 

@@ -1,6 +1,10 @@
 # royvella-vue
 Vue 3 + Nuxt version of RoyVella.com
 
+**Current release: v0.0.0.1 — Hello, World.**
+
+Review deployment: https://royvella-vue.netlify.app. The royvella.com domain and Next.js Netlify project remain unchanged. See [release notes](docs/releases/v0.0.0.1.md).
+
 ## Local development
 
 Use a compatible Node.js release (`nvm use` selects Node 24), then:
@@ -62,10 +66,10 @@ This project uses Nuxt 4 with Vue 3 and TypeScript.
 - `app/pages/work/index.vue`: URL-driven portfolio categories and the project listing.
 - `app/pages/work/[slug].vue`: one dynamic detail page for all eight records in `app/data/projects.json`; unknown slugs return 404.
 - `app/components/ProjectGallery.vue`: shared detail-image gallery, grouped thumbnails, and native-dialog enlargement.
-- `app/pages/lab.vue`: the reference Lab introduction, Motion / 3D collection, and Drawings & Sketches empty state.
+- `app/pages/lab.vue`: the reference Lab introduction, Motion / 3D collection, and Art & Design gallery.
 - `app/pages/about.vue`: the original introduction, interests, toolbox, and responsive career timeline, using verified records in `app/data/career-milestones.json`.
 - `app/pages/contact.vue`: the reference form and direct contact links. Native required/email validation is available, but sending remains disabled until an integration is approved.
-- `app/pages/changelog.vue`: the original reference site’s five releases and future ideas, preserved as static HTML; these are not newly invented Nuxt releases.
+- `app/pages/changelog.vue`: the current Vue/Nuxt release followed by the original reference site's historical releases and future ideas.
 - `app/components/SiteHeader.vue`: shared header for the interior pages; the homepage keeps its distinct hero header.
 - `app/components/CreativeGallery.vue`: shared native-dialog media viewer. Work controls selection through its query string; Lab uses local selection without changing the URL.
 - `app/data/`: reference project listing and creative-gallery metadata; media files live under `public/`.
@@ -97,7 +101,7 @@ Nuxt generates `.nuxt/` during development and `.output/` during builds. Both re
 
 The homepage now follows the existing RoyVella.com design and content. It includes carousel arrows, indicators and swipes; the product-artwork dock with neighboring magnification; mood selection and the seven-family ROYGBIV shuffle; avatar switching, wink and drag; and reduced-motion-aware section entrances. User preferences are stored locally in the browser.
 
-## Development milestone 2: Work, Lab & Font Awesome Pro
+## Development milestone 2: Work, Lab & Font Awesome Pro (historical)
 
 Work and Lab now reuse the interior header, footer, gallery, and native-dialog viewer. The Work page includes eight real project cards and three categories. Lab matches the reference introduction and reuses the ten Motion / 3D entries. Drawings & Sketches intentionally displays the reference's empty state; no placeholder artwork has been invented.
 

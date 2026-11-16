@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const year = new Date().getFullYear()
-// Match the reference site's release label in the migrated changelog.
-const currentVersion = 'v0.004'
+const currentRelease = 'v0.0.0.1 — Hello, World.'
 const socials: { name: string; icon: string; href?: string }[] = [
   { name: 'GitHub', icon: 'fa-brands fa-github' },
   { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', href: 'https://www.linkedin.com/in/roy-vella' },
@@ -27,7 +26,7 @@ const activeSocials = socials.filter(social => social.href?.trim())
         <NuxtLink href="/lab">Lab</NuxtLink>
         <NuxtLink href="/contact">Contact</NuxtLink>
         <NuxtLink href="/changelog" class="footer-changelog-link">
-          Changelog · <span class="footer-changelog-version">{{ currentVersion }}</span>
+          Changelog · <span class="footer-changelog-version">{{ currentRelease }}</span>
         </NuxtLink>
       </nav>
       <div class="footer-socials d-flex" role="group" aria-label="Social profiles">

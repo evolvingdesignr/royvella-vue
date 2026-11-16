@@ -1,0 +1,48 @@
+[
+  {
+    "id": "muppet-character",
+    "title": "Blue-Shirt Cartoon Portrait",
+    "assetStem": "muppet-character",
+    "sourceFiles": [
+      "gag_muppet.jpg"
+    ],
+    "reason": "Permanently removed at Roy’s request. Do not restore to satisfy an older artwork count."
+  },
+  {
+    "id": "stencil-portrait",
+    "title": "Two-Tone Portrait Study",
+    "assetStem": "stencil-portrait",
+    "sourceFiles": [
+      "mike.jpg"
+    ],
+    "reason": "Permanently removed at Roy’s request. Do not restore to satisfy an older artwork count."
+  },
+  {
+    "id": "nope-poster",
+    "title": "NOPE — Poster Portrait",
+    "assetStem": "nope-poster",
+    "sourceFiles": [
+      "meBama.pdf",
+      "obama gag.jpg"
+    ],
+    "reason": "Permanently removed at Roy’s request. Do not restore to satisfy an older artwork count."
+  },
+  {
+    "id": "portrait-shirt-black",
+    "title": "Portrait Apparel — Black",
+    "assetStem": "portrait-shirt-black",
+    "sourceFiles": [
+      "BlackPre.pdf"
+    ],
+    "reason": "Permanently removed at Roy’s request. Do not restore to satisfy an older artwork count."
+  },
+  {
+    "id": "zimmerman-shirt",
+    "title": "Zimmerman — Illustrated Apparel",
+    "assetStem": "zimmerman-shirt",
+    "sourceFiles": [
+      "shirtLayout.ai"
+    ],
+    "reason": "Permanently removed at Roy’s request. Do not restore to satisfy an older artwork count."
+  }
+]

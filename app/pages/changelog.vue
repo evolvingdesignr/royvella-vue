@@ -9,6 +9,22 @@
         <h1>Still Evolving<span>.</span></h1>
         <p class="changelog-intro">A look at what's shipped, what's next, and whatever I decide to experiment with along the way.</p>
         <div class="changelog-entries">
+          <section class="changelog-entry" aria-labelledby="change-v0-0-0-1">
+            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
+              <div>
+                <p class="changelog-version">v0.0.0.1 · November 15, 2026</p>
+                <h2 id="change-v0-0-0-1">v0.0.0.1 — Hello, World.</h2>
+              </div>
+              <span class="changelog-status">Released</span>
+            </div>
+            <ul class="changelog-checklist">
+              <li><span>Introduced the Vue + Nuxt portfolio with selected work, project galleries, and the Lab.</span></li>
+              <li><span>Added 67 curated Art &amp; Design pieces in one continuous gallery, with optimized images, thumbnails, and keyboard-accessible lightbox navigation.</span></li>
+              <li><span>Organized drawings, illustrations, apparel, product design, branding, and marketing, with graffiti and lettering closing the collection.</span></li>
+              <li><span>Preserved the ten Motion / 3D entries and existing project pages.</span></li>
+            </ul>
+          </section>
+
           <section class="changelog-entry" aria-labelledby="change-v0.004">
             <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
               <div>
@@ -140,7 +156,7 @@
                 <span>More work from Bookt, InstaManager, Kigo, RealPage, SmartMat, and SkyCig</span>
               </li>
               <li>
-                <span>Art and illustration galleries</span>
+                <span>More art and illustration from the archives</span>
               </li>
               <li>
                 <span>More playful Lab experiments</span>

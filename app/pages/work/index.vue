@@ -4,7 +4,7 @@ import projects from '~/data/projects.json'
 const categories = [
   { id: 'ui-ux-dev', label: 'UI/UX Dev' },
   { id: 'motion-3d', label: 'Motion / 3D' },
-  { id: 'drawings-sketches', label: 'Drawings & Sketches' },
+  { id: 'drawings-sketches', label: 'Art & Design' },
 ] as const
 const route = useRoute()
 const router = useRouter()
