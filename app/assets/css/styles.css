@@ -2,9 +2,6 @@ body {
   background-color: #f5f7fa;
 }
 
-/* Retained foundation demo; Bootstrap handles width and centering. */
-.portfolio-welcome { max-width: 56rem; }
-
 /* Shared content width; Bootstrap utilities handle horizontal centering. */
 
 .site-container {
