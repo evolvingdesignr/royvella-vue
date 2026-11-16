@@ -5095,19 +5095,7 @@ body {
 .changelog-page .changelog-check svg { width: 1em; }
 
 
-/* Persistent navigation on long pages. Keep the original content alignment. */
-.reference-home .home-header {
-  position: fixed;
-  inset: 0 0 auto;
-  z-index: 100;
-  width: 100%;
-  max-width: none;
-  padding-inline: max(5.5vw, calc((100vw - 1294px) / 2));
-}
-.reference-home .home-header.is-scrolled {
-  background: linear-gradient(110deg, var(--hero-start), var(--hero-end));
-  box-shadow: 0 4px 18px rgb(10 20 35 / 18%);
-}
+/* Keep navigation visible on long interior pages only. */
 .interior-page .site-header {
   position: sticky;
   top: 0;
@@ -5116,10 +5104,6 @@ body {
   box-shadow: 0 2px 10px rgb(10 20 35 / 6%);
 }
 @media (max-width: 540px) {
-  .reference-home .home-header {
-    width: 100%;
-    padding-inline: 6vw;
-  }
   .interior-page .site-header {
     width: 100%;
     padding-inline: 6%;
