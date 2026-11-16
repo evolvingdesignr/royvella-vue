@@ -5093,3 +5093,30 @@ body {
 .changelog-page p { margin-top: 0; }
 .changelog-page .changelog-check i,
 .changelog-page .changelog-check svg { width: 1em; }
+
+
+/* Keep site navigation available on long pages without changing the initial header design. */
+.reference-home .home-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 100;
+}
+.reference-home .home-header.is-scrolled {
+  background: linear-gradient(110deg, var(--hero-start), var(--hero-end));
+  border-radius: 0 0 14px 14px;
+  box-shadow: 0 4px 16px rgb(10 20 35 / 15%);
+  padding-inline: 18px;
+}
+.interior-page .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  box-shadow: 0 2px 10px rgb(10 20 35 / 5%);
+}
+@media (max-width: 540px) {
+  .interior-page .site-header {
+    width: 100%;
+    padding-inline: 6%;
+  }
+}
