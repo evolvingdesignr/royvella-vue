@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="251.978" height="277.196" viewBox="0 0 251.978 277.196">
   <style>
-    .contact-eye-closed { opacity: 0; animation: contact-blink-closed 1.5s steps(1, end) 1; }
-    .contact-eye-open { animation: contact-blink-open 1.5s steps(1, end) 1; }
-    @keyframes contact-blink-open { 0%, 46%, 53%, 100% { opacity: 1; } 47%, 52% { opacity: 0; } }
-    @keyframes contact-blink-closed { 0%, 46%, 53%, 100% { opacity: 0; } 47%, 52% { opacity: 1; } }
+    .contact-eye-closed { opacity: 0; animation: contact-blink-closed 5s steps(1, end) infinite; }
+    .contact-eye-open { animation: contact-blink-open 5s steps(1, end) infinite; }
+    @keyframes contact-blink-open { 0%, 17.9%, 20%, 65.9%, 68%, 100% { opacity: 1; } 18%, 66% { opacity: 0; } }
+    @keyframes contact-blink-closed { 0%, 17.9%, 20%, 65.9%, 68%, 100% { opacity: 0; } 18%, 66% { opacity: 1; } }
     @media (prefers-reduced-motion: reduce) {
       .contact-eye-open, .contact-eye-closed { animation: none; }
       .contact-eye-closed { opacity: 0; }
