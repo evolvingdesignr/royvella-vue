@@ -71,7 +71,7 @@ useSeoMeta({
                 <p v-if="isSuccessPreview" class="small text-secondary mb-3" role="status">Preview mode · No message was sent.</p>
                 <div class="d-flex align-items-center gap-3 mb-3">
                   <div class="contact-success-avatar flex-shrink-0 position-relative" aria-hidden="true">
-                    <img src="/assets/avatars/contact-avatar.svg?v=blink-2" alt="" width="72" height="80" decoding="async">
+                    <img src="/assets/avatars/contact-avatar.svg?v=blink-3" alt="" width="72" height="80" decoding="async">
                     <i class="contact-success-check fa-sharp fa-solid fa-circle-check position-absolute" aria-hidden="true"></i>
                   </div>
                   <div class="min-w-0">
