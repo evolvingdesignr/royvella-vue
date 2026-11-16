@@ -4913,6 +4913,66 @@ body {
 .contact-page :is(h1, h2, p) { margin-top: 0; }
 .contact-page .contact-icon { font-size: 18px; line-height: 1; }
 
+/* Compact contact submission confirmation. All form submission behavior stays unchanged. */
+.contact-page .contact-confirmation {
+  text-align: left;
+}
+.contact-page .contact-success-avatar {
+  width: 72px;
+  height: 80px;
+  transform-origin: center bottom;
+  animation: contact-avatar-hello 850ms cubic-bezier(.2,.8,.25,1) both;
+}
+.contact-page .contact-success-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contact-page .contact-success-check {
+  bottom: 0;
+  right: -4px;
+  color: #087344;
+  background: #f7f8fa;
+  border-radius: 50%;
+  font-size: 24px;
+  line-height: 1;
+}
+@keyframes contact-avatar-hello {
+  0% { opacity: 0; transform: translateY(7px) scale(.92) rotate(-4deg); }
+  55% { opacity: 1; transform: translateY(-3px) scale(1.035) rotate(2deg); }
+  80% { transform: translateY(1px) scale(.99) rotate(-1deg); }
+  100% { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contact-page .contact-success-avatar { animation: none; }
+}
+.contact-page .contact-success-label {
+  color: #62676f;
+  font-size: 11px;
+  letter-spacing: .065em;
+  line-height: 1.4;
+}
+.contact-page .contact-confirmation .contact-section-title {
+  font-size: clamp(19px, 2vw, 25px);
+  letter-spacing: -.025em;
+}
+.contact-page .contact-confirmation .contact-intro {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.contact-page .contact-success-footer {
+  border-top-color: var(--home-line);
+}
+.contact-page .contact-success-footer .btn {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.contact-page #contact-success-title:focus {
+  outline: none;
+}
+
 /* Changelog: original reference release history and completed-item presentation. */
 .changelog-page {
   --brand-blue-hover: #1265bd;

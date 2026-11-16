@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const status = ref<'idle' | 'sending' | 'success' | 'error'>('idle')
+const route = useRoute()
+const isSuccessPreview = computed(() => route.query.preview === 'success')
 const confirmationHeading = ref<HTMLElement | null>(null)
 let submitting = false
 
@@ -65,15 +67,23 @@ useSeoMeta({
         <div class="row g-4 g-lg-5 align-items-start">
           <div class="col-lg-6">
             <div class="contact-form-card p-4">
-              <section v-if="status === 'success'" class="contact-confirmation text-center" aria-labelledby="contact-success-title" aria-describedby="contact-success-description contact-success-appreciation">
-                <svg class="contact-success-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true" focusable="false">
-                  <circle cx="32" cy="32" r="29" fill="currentColor" fill-opacity=".09" stroke="currentColor" stroke-width="2" />
-                  <path d="m20 32 8 8 16-17" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-                <p class="contact-kicker mb-0">MESSAGE RECEIVED</p>
-                <h2 id="contact-success-title" ref="confirmationHeading" class="contact-section-title mb-0" tabindex="-1">Thanks for Reaching Out!</h2>
-                <p id="contact-success-description" class="contact-intro mb-0">Your message has been submitted. I'll review it and get back to you as soon as I can.</p>
-                <p id="contact-success-appreciation" class="small text-secondary mb-0">I appreciate you taking the time to connect.</p>
+              <section v-if="status === 'success' || isSuccessPreview" class="contact-confirmation" aria-labelledby="contact-success-title" aria-describedby="contact-success-description">
+                <p v-if="isSuccessPreview" class="small text-secondary mb-3" role="status">Preview mode · No message was sent.</p>
+                <div class="d-flex align-items-center gap-3 mb-3">
+                  <div class="contact-success-avatar flex-shrink-0 position-relative" aria-hidden="true">
+                    <img src="/assets/avatars/contact-avatar.svg?v=blink-natural" alt="" width="72" height="80" decoding="async">
+                    <i class="contact-success-check fa-sharp fa-solid fa-circle-check position-absolute" aria-hidden="true"></i>
+                  </div>
+                  <div class="min-w-0">
+                    <p class="contact-success-label text-uppercase fw-semibold mb-1">Message sent successfully</p>
+                    <h2 id="contact-success-title" ref="confirmationHeading" class="contact-section-title mb-0" tabindex="-1">Thanks for reaching out!</h2>
+                  </div>
+                </div>
+                <p id="contact-success-description" class="contact-intro mb-0">Your message is on its way. I'll review it and get back to you as soon as I can.</p>
+                <div class="contact-success-footer d-flex flex-column flex-sm-row align-items-start align-items-sm-center justify-content-between gap-3 mt-4 pt-3 border-top">
+                  <p class="small text-secondary mb-0">In the meantime, feel free to explore my work.</p>
+                  <NuxtLink to="/work" class="btn btn-dark rounded-pill px-3 py-2 flex-shrink-0">View My Work <i class="fa-sharp fa-solid fa-arrow-right ms-2" aria-hidden="true"></i></NuxtLink>
+                </div>
               </section>
               <form v-else name="contact" method="POST" action="/__forms.html" data-netlify="true" netlify-honeypot="bot-field" aria-labelledby="contact-form-title" aria-describedby="contact-form-status" @submit.prevent="submitContact">
                 <input type="hidden" name="form-name" value="contact">
