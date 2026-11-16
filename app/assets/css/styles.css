@@ -4939,7 +4939,7 @@ body {
   line-height: 1.6;
 }
 .contact-page .contact-success-footer {
-  border-color: var(--home-line) !important;
+  border-top-color: var(--home-line);
 }
 .contact-page .contact-success-footer .btn {
   font-size: 13px;
