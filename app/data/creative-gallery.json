@@ -133,6 +133,72 @@
     "title": "Moses — Character Development"
   },
   {
+    "id": "roys-art-003",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-003-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-003-psd-thumb.webp",
+    "width": 1754,
+    "height": 2200,
+    "alt": "Grayscale illustration of a seated hooded figure with crossed legs and several cloaked figures standing behind.",
+    "title": "Figures in Shadow"
+  },
+  {
+    "id": "roys-art-008",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-008-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-008-psd-thumb.webp",
+    "width": 1113,
+    "height": 1760,
+    "alt": "Pencil study of a seated figure in a striped sleeveless top, with bent knees and arms reaching forward.",
+    "title": "Seated Figure Study"
+  },
+  {
+    "id": "roys-art-004",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-004-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-004-psd-thumb.webp",
+    "width": 1451,
+    "height": 2014,
+    "alt": "Pencil still life of keys on a ring, a looped cord, and a cylindrical object arranged over a labeled rectangular surface.",
+    "title": "Keys and Cord — Still Life"
+  },
+  {
+    "id": "roys-art-007",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-007-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-007-psd-thumb.webp",
+    "width": 970,
+    "height": 1624,
+    "alt": "Grayscale drawing looking up a giraffe’s long neck toward its head beneath a canopy of tree branches.",
+    "title": "Giraffe Beneath the Branches"
+  },
+  {
+    "id": "roys-art-006",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-006-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-006-psd-thumb.webp",
+    "width": 1265,
+    "height": 1898,
+    "alt": "Faint pencil sketch of faces and distorted cartoon figures intertwined in a tall, curving organic form.",
+    "title": "Surreal Character Sketch"
+  },
+  {
+    "id": "roys-art-005",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-005-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-005-psd-thumb.webp",
+    "width": 1271,
+    "height": 2200,
+    "alt": "Pencil drawing of a towering muscular cartoon character with a tall hairstyle beside a much smaller character standing on a box.",
+    "title": "Hold up, Roy"
+  },
+  {
     "id": "roys-art-013",
     "category": "drawings-sketches",
     "type": "image",
@@ -164,72 +230,6 @@
     "height": 1611,
     "alt": "Color portrait of a dark-haired person holding oversized gold chain links to their mouth against an orange background with pink lettering.",
     "title": "Chris Chainz — Portrait"
-  },
-  {
-    "id": "roys-art-005",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-005-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-005-psd-thumb.webp",
-    "width": 1271,
-    "height": 2200,
-    "alt": "Pencil drawing of a towering muscular cartoon character with a tall hairstyle beside a much smaller character standing on a box.",
-    "title": "Hold up, Roy"
-  },
-  {
-    "id": "roys-art-006",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-006-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-006-psd-thumb.webp",
-    "width": 1265,
-    "height": 1898,
-    "alt": "Faint pencil sketch of faces and distorted cartoon figures intertwined in a tall, curving organic form.",
-    "title": "Surreal Character Sketch"
-  },
-  {
-    "id": "roys-art-008",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-008-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-008-psd-thumb.webp",
-    "width": 1113,
-    "height": 1760,
-    "alt": "Pencil study of a seated figure in a striped sleeveless top, with bent knees and arms reaching forward.",
-    "title": "Seated Figure Study"
-  },
-  {
-    "id": "roys-art-003",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-003-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-003-psd-thumb.webp",
-    "width": 1754,
-    "height": 2200,
-    "alt": "Grayscale illustration of a seated hooded figure with crossed legs and several cloaked figures standing behind.",
-    "title": "Figures in Shadow"
-  },
-  {
-    "id": "roys-art-004",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-004-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-004-psd-thumb.webp",
-    "width": 1451,
-    "height": 2014,
-    "alt": "Pencil still life of keys on a ring, a looped cord, and a cylindrical object arranged over a labeled rectangular surface.",
-    "title": "Keys and Cord — Still Life"
-  },
-  {
-    "id": "roys-art-007",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-007-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-007-psd-thumb.webp",
-    "width": 970,
-    "height": 1624,
-    "alt": "Grayscale drawing looking up a giraffe’s long neck toward its head beneath a canopy of tree branches.",
-    "title": "Giraffe Beneath the Branches"
   },
   {
     "id": "vf-family-characters",
@@ -362,6 +362,28 @@
     "height": 1424,
     "alt": "Front-and-back white T-shirt mockups with a black-and-white cartoon face in a baseball cap wrapping around the hem.",
     "title": "Portrait Apparel — Cap Character"
+  },
+  {
+    "id": "imagelab-identity",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/imagelab-identity.webp",
+    "thumbnail": "/creative/drawings/imagelab-identity-thumb.webp",
+    "width": 2200,
+    "height": 1700,
+    "alt": "ImageLab wordmark variations with green accents beside a gray film-scanner mockup carrying the same branding.",
+    "title": "ImageLab — Identity Study"
+  },
+  {
+    "id": "ntice-packaging",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/ntice-packaging-individual.webp",
+    "thumbnail": "/creative/drawings/ntice-packaging-individual-thumb.webp",
+    "width": 1019,
+    "height": 2200,
+    "alt": "Turquoise and orange NTICE menthol package with a patterned cylindrical product mockup on white.",
+    "title": "NTICE — Packaging Study"
   },
   {
     "id": "sky-apparel",
@@ -516,17 +538,6 @@
     "height": 1700,
     "alt": "Tourism website concept with a smiling child, beach photography, handwritten-style headlines, navigation, and a blue Aruba wordmark.",
     "title": "Aruba — Website Concept"
-  },
-  {
-    "id": "imagelab-identity",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/imagelab-identity.webp",
-    "thumbnail": "/creative/drawings/imagelab-identity-thumb.webp",
-    "width": 2200,
-    "height": 1700,
-    "alt": "ImageLab wordmark variations with green accents beside a gray film-scanner mockup carrying the same branding.",
-    "title": "ImageLab — Identity Study"
   },
   {
     "id": "friendz-script",
@@ -703,17 +714,6 @@
     "height": 1894,
     "alt": "Banking interface concept with illustrated piggy banks of different sizes and deposit amount options.",
     "title": "BBVA Compass — Deposit Selection Concept"
-  },
-  {
-    "id": "ntice-packaging",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/ntice-packaging-individual.webp",
-    "thumbnail": "/creative/drawings/ntice-packaging-individual-thumb.webp",
-    "width": 1019,
-    "height": 2200,
-    "alt": "Turquoise and orange NTICE menthol package with a patterned cylindrical product mockup on white.",
-    "title": "NTICE — Packaging Study"
   },
   {
     "id": "kraft-six-flags-packaging",
