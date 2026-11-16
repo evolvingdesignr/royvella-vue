@@ -1,17 +1,51 @@
 <script setup lang="ts">
-// Validate the reference fields without sending data until an integration is approved.
-function validateForm(event: Event) {
-  const form = (event.currentTarget as HTMLElement).closest('form') as HTMLFormElement
+const status = ref<'idle' | 'sending' | 'success' | 'error'>('idle')
+const confirmationHeading = ref<HTMLElement | null>(null)
+let submitting = false
+
+function clearValidation(event: Event) {
+  const field = event.currentTarget as HTMLInputElement | HTMLTextAreaElement
+  field.setCustomValidity('')
+  if (status.value === 'error') status.value = 'idle'
+}
+
+async function submitContact(event: Event) {
+  const form = event.currentTarget as HTMLFormElement
+  if (submitting) return
+
   for (const name of ['name', 'email', 'message']) {
     const field = form.elements.namedItem(name) as HTMLInputElement | HTMLTextAreaElement
     field.setCustomValidity(field.value.trim() ? '' : 'Please fill out this field.')
   }
-  form.reportValidity()
+  if (!form.reportValidity()) return
+
+  submitting = true
+  status.value = 'sending'
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), 20000)
+
+  try {
+    const body = new URLSearchParams()
+    new FormData(form).forEach((value, key) => body.append(key, String(value)))
+    const response = await fetch('/__forms.html', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString(),
+      signal: controller.signal,
+    })
+    if (!response.ok) throw new Error('Submission failed')
+    form.reset()
+    status.value = 'success'
+    await nextTick()
+    confirmationHeading.value?.focus()
+  } catch {
+    status.value = 'error'
+  } finally {
+    clearTimeout(timeout)
+    submitting = false
+  }
 }
-function clearValidation(event: Event) {
-  const field = event.currentTarget as HTMLInputElement | HTMLTextAreaElement
-  field.setCustomValidity('')
-}
+
 useSeoMeta({
   title: 'Contact Roy | Roy Vella',
   description: "Whether it's a project, an opportunity, or just a hello, I'd love to hear from you.",
@@ -31,24 +65,38 @@ useSeoMeta({
         <div class="row g-4 g-lg-5 align-items-start">
           <div class="col-lg-6">
             <div class="contact-form-card p-4">
-              <form name="contact" aria-labelledby="contact-form-title" aria-describedby="contact-form-status contact-form-unavailable" @submit.prevent="validateForm">
+              <section v-if="status === 'success'" class="contact-confirmation text-center" aria-labelledby="contact-success-title" aria-describedby="contact-success-description contact-success-appreciation">
+                <svg class="contact-success-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true" focusable="false">
+                  <circle cx="32" cy="32" r="29" fill="currentColor" fill-opacity=".09" stroke="currentColor" stroke-width="2" />
+                  <path d="m20 32 8 8 16-17" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p class="contact-kicker mb-0">MESSAGE RECEIVED</p>
+                <h2 id="contact-success-title" ref="confirmationHeading" class="contact-section-title mb-0" tabindex="-1">Thanks for Reaching Out!</h2>
+                <p id="contact-success-description" class="contact-intro mb-0">Your message has been submitted. I'll review it and get back to you as soon as I can.</p>
+                <p id="contact-success-appreciation" class="small text-secondary mb-0">I appreciate you taking the time to connect.</p>
+              </section>
+              <form v-else name="contact" method="POST" action="/__forms.html" data-netlify="true" netlify-honeypot="bot-field" aria-labelledby="contact-form-title" aria-describedby="contact-form-status" @submit.prevent="submitContact">
+                <input type="hidden" name="form-name" value="contact">
+                <p hidden><label>Leave this field empty: <input name="bot-field" type="text" tabindex="-1" autocomplete="off"></label></p>
                 <h2 id="contact-form-title" class="contact-section-title mb-4">Send Me a Message</h2>
                 <div class="mb-3">
                   <label class="form-label fw-semibold" for="contact-name">Name <span class="text-danger" aria-hidden="true">*</span></label>
-                  <input id="contact-name" class="form-control" name="name" type="text" autocomplete="name" required @input="clearValidation">
+                  <input id="contact-name" class="form-control" name="name" type="text" autocomplete="name" required :readonly="status === 'sending'" @input="clearValidation">
                 </div>
                 <div class="mb-3">
                   <label class="form-label fw-semibold" for="contact-email">Email <span class="text-danger" aria-hidden="true">*</span></label>
-                  <input id="contact-email" class="form-control" name="email" type="email" autocomplete="email" required @input="clearValidation">
+                  <input id="contact-email" class="form-control" name="email" type="email" autocomplete="email" required :readonly="status === 'sending'" @input="clearValidation">
                 </div>
                 <div class="mb-4">
                   <label class="form-label fw-semibold" for="contact-message">Message <span class="text-danger" aria-hidden="true">*</span></label>
-                  <textarea id="contact-message" class="form-control" name="message" rows="5" required @input="clearValidation"></textarea>
+                  <textarea id="contact-message" class="form-control" name="message" rows="5" required :readonly="status === 'sending'" @input="clearValidation"></textarea>
                 </div>
-                <!-- Focusable for validation; the handler never submits or clears the message. -->
-                <button class="btn btn-dark rounded-pill px-4 py-2 fw-semibold" type="button" aria-disabled="true" aria-describedby="contact-form-unavailable" @click="validateForm">Send Message <span aria-hidden="true">→</span></button>
-                <p id="contact-form-status" class="small text-secondary mt-3 mb-0" role="status" aria-live="polite" aria-atomic="true">All fields are required.</p>
-                <p id="contact-form-unavailable" class="small text-secondary mt-2 mb-0">Sending is disabled in this development project. No message will be sent. Please email <a class="text-decoration-underline" href="mailto:roy@royvella.com">roy@royvella.com</a> instead.</p>
+                <button class="btn btn-dark rounded-pill px-4 py-2 fw-semibold" type="submit" :disabled="status === 'sending'" :aria-busy="status === 'sending'" aria-describedby="contact-form-status">{{ status === 'sending' ? 'Sending…' : 'Send Message' }} <span aria-hidden="true">→</span></button>
+                <p id="contact-form-status" class="small text-secondary mt-3 mb-0" :role="status === 'error' ? 'alert' : 'status'" :aria-live="status === 'error' ? 'assertive' : 'polite'" aria-atomic="true">
+                  <template v-if="status === 'idle'">All fields are required.</template>
+                  <template v-else-if="status === 'sending'">Sending your message…</template>
+                  <template v-else>We couldn't confirm your submission. Your message is still here. Try again, or email <a href="mailto:roy@royvella.com">roy@royvella.com</a>.</template>
+                </p>
               </form>
             </div>
           </div>
