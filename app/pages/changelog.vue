@@ -18,123 +18,15 @@
               <span class="changelog-status">Released</span>
             </div>
             <ul class="changelog-checklist">
-              <li><span>Introduced the Vue + Nuxt portfolio with selected work, project galleries, and the Lab.</span></li>
-              <li><span>Added 67 curated Art &amp; Design pieces in one continuous gallery, with optimized images, thumbnails, and keyboard-accessible lightbox navigation.</span></li>
-              <li><span>Organized drawings, illustrations, apparel, product design, branding, and marketing, with graffiti and lettering closing the collection.</span></li>
-              <li><span>Preserved the ten Motion / 3D entries and existing project pages.</span></li>
-            </ul>
-          </section>
-
-          <section class="changelog-entry" aria-labelledby="change-v0.004">
-            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
-              <div>
-                <p class="changelog-version">v0.004 · November 2026</p>
-                <h2 id="change-v0.004">Portfolio Filters &amp; Motion Gallery</h2>
-              </div>
-              <span class="changelog-status">Released</span>
-            </div>
-            <ul class="changelog-checklist">
-              <li>
-                <span>Added portfolio category filters while preserving the existing UI/UX development projects.</span>
-              </li>
-              <li>
-                <span>Introduced ten motion and 3D videos with poster thumbnails, approved captions, and ordered lightbox navigation.</span>
-              </li>
-              <li>
-                <span>Kept media at native resolution or smaller inside a responsive, consistently sized viewer.</span>
-              </li>
-              <li>
-                <span>Updated THE LAB with RockOn!, category labels, and a single future-facing Coming Soon card.</span>
-              </li>
-            </ul>
-          </section>
-
-          <section class="changelog-entry" aria-labelledby="change-v0.003.1">
-            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
-              <div>
-                <p class="changelog-version">v0.003.1 · November 2026</p>
-                <h2 id="change-v0.003.1">Expand portfolio content</h2>
-              </div>
-              <span class="changelog-status">Released</span>
-            </div>
-            <ul class="changelog-checklist">
-              <li>
-                <span>Expanded portfolio content with additional projects, updated visuals, interactive prototypes, and improved project presentations.</span>
-              </li>
-            </ul>
-          </section>
-
-          <section class="changelog-entry" aria-labelledby="change-v0.003">
-            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
-              <div>
-                <p class="changelog-version">v0.003 · November 2026</p>
-                <h2 id="change-v0.003">Bookt / InstaManager</h2>
-              </div>
-              <span class="changelog-status">Released</span>
-            </div>
-            <ul class="changelog-checklist">
-              <li>
-                <span>Added Bookt / InstaManager to Featured Work and the portfolio.</span>
-              </li>
-              <li>
-                <span>Shared the project story, design highlights, and original imagery.</span>
-              </li>
-            </ul>
-          </section>
-
-          <section class="changelog-entry" aria-labelledby="change-v0.002">
-            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
-              <div>
-                <p class="changelog-version">v0.002 · November 2026</p>
-                <h2 id="change-v0.002">A Little More Polish</h2>
-              </div>
-              <span class="changelog-status">Released</span>
-            </div>
-            <ul class="changelog-checklist">
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Added a changelog so I can keep track of all the things I keep changing.</span>
-              </li>
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Refined responsive mobile heroes for both 2D and 3D avatars.</span>
-              </li>
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Unified mobile navigation with the existing mood selector across pages.</span>
-              </li>
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Improved menu accessibility, keyboard controls, and outside-click dismissal.</span>
-              </li>
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Fixed mobile layouts and hero curve seams across responsive sizes.</span>
-              </li>
-            </ul>
-          </section>
-
-          <section class="changelog-entry" aria-labelledby="change-v0.001">
-            <div class="changelog-entry-heading d-flex flex-wrap justify-content-between align-items-start">
-              <div>
-                <p class="changelog-version">v0.001 · November 2026</p>
-                <h2 id="change-v0.001">Hello, World.</h2>
-              </div>
-              <span class="changelog-status">Released</span>
-            </div>
-            <ul class="changelog-checklist">
-              <li>
-                <span>Launched RoyVella.com with selected work and project galleries.</span>
-              </li>
-              <li>
-                <span>After years working with HTML, CSS, Bootstrap, Angular, TypeScript, PrimeNG, and Font Awesome, I built RoyVella.com as a chance to learn something new: React and Next.js.</span>
-              </li>
-              <li>
-                <span>Introduced customizable color themes, avatar styles, and a peek into the Lab.</span>
-              </li>
-              <li>
-                <span>Added a contact form with email notifications and an autoresponder.</span>
-              </li>
+              <li><span>Launched the Vue + Nuxt portfolio featuring selected UI/UX work, project galleries, and the Lab.</span></li>
+              <li><span>Curated 66 Art &amp; Design pieces into one continuous gallery, with optimized images, descriptive text, and keyboard-friendly lightbox navigation.</span></li>
+              <li><span>Organized drawings, character studies, illustration, apparel, branding, and marketing work, finishing with graffiti and lettering.</span></li>
+              <li><span>Added Work categories for UI/UX development, Motion / 3D, and Art &amp; Design, with direct links to each collection.</span></li>
+              <li><span>Featured ten Motion / 3D pieces with video previews and responsive lightbox viewing.</span></li>
+              <li><span>Expanded project presentations with Bookt / InstaManager, Kigo / RealPage, additional visuals, and interactive prototypes.</span></li>
+              <li><span>Refined the homepage with featured work, an interactive tools dock, customizable color themes, and illustrated avatar styles.</span></li>
+              <li><span>Improved desktop, tablet, and mobile layouts, including navigation, menu accessibility, and keyboard interactions.</span></li>
+              <li><span>Brought together About, Contact, Work, Lab, and Changelog as part of one consistent portfolio experience.</span></li>
             </ul>
           </section>
 
@@ -142,25 +34,12 @@
             <p class="changelog-version">FUTURE IDEAS · NO PROMISES</p>
             <h2 id="changelog-radar">On the Radar.</h2>
             <ul class="changelog-checklist">
-              <li class="changelog-completed d-flex gap-2">
-                <span class="changelog-check flex-shrink-0" role="img" aria-label="Completed"><i class="fa-sharp fa-solid fa-check" aria-hidden="true"></i></span>
-                <span>Responsive layouts and mobile/tablet usability improvements</span>
-              </li>
-              <li>
-                <span>Lightweight visitor analytics</span>
-              </li>
-              <li>
-                <span>A deeper Ability Commerce case study</span>
-              </li>
-              <li>
-                <span>More work from Bookt, InstaManager, Kigo, RealPage, SmartMat, and SkyCig</span>
-              </li>
-              <li>
-                <span>More art and illustration from the archives</span>
-              </li>
-              <li>
-                <span>More playful Lab experiments</span>
-              </li>
+              <li><span>Keep polishing responsive details and the mobile and tablet experience.</span></li>
+              <li><span>Explore lightweight, privacy-conscious visitor analytics.</span></li>
+              <li><span>Develop a deeper Ability Commerce case study, from design challenges to finished solutions.</span></li>
+              <li><span>Share more projects and behind-the-scenes work from Bookt, InstaManager, Kigo, RealPage, SmartMat, and SkyCig.</span></li>
+              <li><span>Bring more drawings, illustrations, and creative experiments out of the archives.</span></li>
+              <li><span>Build more playful Lab experiments, interactive prototypes, and unexpected ideas.</span></li>
             </ul>
           </section>
         </div>
