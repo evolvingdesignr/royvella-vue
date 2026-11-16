@@ -10,8 +10,6 @@ const project = computed(() => projects[index.value]!)
 const roles = ['UI/UX Designer', 'Father', 'HTML/CSS Expert', 'Husband', 'Front-End Developer', 'Artist', 'Problem Solver', 'Creator', 'Always Evolving']
 const roleIndex = ref(0)
 const mood = ref('Color')
-const headerScrolled = ref(false)
-function updateHeaderScroll() { headerScrolled.value = window.scrollY > 48 }
 const avatarStyle = ref('2d')
 const rainbowFamilies = [
   { id: 'red', hue: 1, start: '#E9514D', end: '#F17D7A', build: '#001117' },
@@ -224,8 +222,6 @@ function outside(event: PointerEvent) {
   for (const panel of [menu.value, moodMenu.value]) if (panel && !panel.contains(target)) panel.open = false
 }
 onMounted(() => {
-  updateHeaderScroll()
-  window.addEventListener('scroll', updateHeaderScroll, { passive: true })
   motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)')
   motionPreference.addEventListener('change', updateMoodMotion)
   try {
@@ -280,7 +276,6 @@ onMounted(() => {
   window.addEventListener('scroll', resetDock, { passive: true })
 })
 onBeforeUnmount(() => {
-  window.removeEventListener('scroll', updateHeaderScroll)
   aboutObserver?.disconnect()
   featuredObserver?.disconnect()
   labObserver?.disconnect()
@@ -314,7 +309,6 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
   >
     <header
       class="home-header d-flex align-items-center"
-      :class="{ 'is-scrolled': headerScrolled }"
     >
       <a class="skip-link" href="#main-content">Skip to content</a>
       <NuxtLink href="/" class="rv-brand d-flex align-items-center" aria-label="Roy Vella home"><img class="rv-logo-image" src="/assets/branding/logo-rv-horizontal-white.svg" alt="" width="124" height="21"></NuxtLink>
