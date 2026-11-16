@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const status = ref<'idle' | 'sending' | 'success' | 'error'>('idle')
+const route = useRoute()
+const isSuccessPreview = computed(() => route.query.preview === 'success')
 const confirmationHeading = ref<HTMLElement | null>(null)
 let submitting = false
 
@@ -65,7 +67,8 @@ useSeoMeta({
         <div class="row g-4 g-lg-5 align-items-start">
           <div class="col-lg-6">
             <div class="contact-form-card p-4">
-              <section v-if="status === 'success'" class="contact-confirmation" aria-labelledby="contact-success-title" aria-describedby="contact-success-description">
+              <section v-if="status === 'success' || isSuccessPreview" class="contact-confirmation" aria-labelledby="contact-success-title" aria-describedby="contact-success-description">
+                <p v-if="isSuccessPreview" class="small text-secondary mb-3" role="status">Preview mode · No message was sent.</p>
                 <div class="d-flex align-items-center gap-3 mb-3">
                   <div class="contact-success-avatar flex-shrink-0 position-relative" aria-hidden="true">
                     <img src="/assets/avatars/contact-avatar.svg" alt="" width="72" height="80" decoding="async">
