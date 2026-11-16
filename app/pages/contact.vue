@@ -67,8 +67,9 @@ useSeoMeta({
             <div class="contact-form-card p-4">
               <section v-if="status === 'success'" class="contact-confirmation" aria-labelledby="contact-success-title" aria-describedby="contact-success-description">
                 <div class="d-flex align-items-center gap-3 mb-3">
-                  <div class="contact-success-mark d-flex align-items-center justify-content-center flex-shrink-0 rounded-4" aria-hidden="true">
-                    <i class="fa-sharp fa-solid fa-circle-check"></i>
+                  <div class="contact-success-avatar flex-shrink-0 position-relative" aria-hidden="true">
+                    <img src="/assets/avatars/contact-avatar.svg" alt="" width="72" height="80" decoding="async">
+                    <i class="contact-success-check fa-sharp fa-solid fa-circle-check position-absolute" aria-hidden="true"></i>
                   </div>
                   <div class="min-w-0">
                     <p class="contact-success-label text-uppercase fw-semibold mb-1">Message sent successfully</p>
