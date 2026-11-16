@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const year = new Date().getFullYear()
-const currentRelease = 'v0.0.0.1 — Hello, World.'
+const currentRelease = 'v0.0.0.1'
 const socials: { name: string; icon: string; href?: string }[] = [
   { name: 'GitHub', icon: 'fa-brands fa-github' },
   { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', href: 'https://www.linkedin.com/in/roy-vella' },

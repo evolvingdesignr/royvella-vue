@@ -2,7 +2,7 @@
 
 ## Current release
 
-**v0.0.0.1 — Hello, World.** completes the approved 67-piece Art & Design gallery. See [release documentation](releases/v0.0.0.1.md) for scope, final checks, and deployment boundaries. Earlier milestone notes below retain their original historical context.
+**v0.0.0.1 — Hello, World.** completes the approved 67-piece Art & Design gallery. See [release documentation](releases/v0.0.0.1.md) for scope, final checks, and deployment boundaries. Public verification passed for all 14 routes and all 134 artwork images/thumbnails at https://royvella-vue.netlify.app after release commit `d8114ee`. The gallery contains 67 pieces. Local and remote `main` were synchronized; no domains or Next.js resources were changed. Interactive browser regression remains unverified because the browser host was unavailable. Earlier milestone notes below retain their original historical context.
 
 ## Earlier navigation milestone — November 15, 2026
 
