@@ -364,17 +364,6 @@
     "title": "Portrait Apparel — Cap Character"
   },
   {
-    "id": "portrait-shirt-red",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/portrait-shirt-red.webp",
-    "thumbnail": "/creative/drawings/portrait-shirt-red-thumb.webp",
-    "width": 2200,
-    "height": 1424,
-    "alt": "Front-and-back red T-shirt mockups with a large black stencil portrait of a man with a goatee.",
-    "title": "Portrait Apparel — Red"
-  },
-  {
     "id": "sky-apparel",
     "category": "drawings-sketches",
     "type": "image",
@@ -386,17 +375,6 @@
     "title": "SKY — Apparel Concept"
   },
   {
-    "id": "aruba-apparel",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/aruba-apparel.webp",
-    "thumbnail": "/creative/drawings/aruba-apparel-thumb.webp",
-    "width": 2200,
-    "height": 1700,
-    "alt": "Aruba apparel presentation with white and black shirts, a cap, and the blue-and-yellow smiling-figure logo.",
-    "title": "Aruba — Apparel Concepts"
-  },
-  {
     "id": "mc-cup-reflection-study",
     "category": "drawings-sketches",
     "type": "image",
@@ -406,17 +384,6 @@
     "height": 510,
     "alt": "3D study of a transparent glass mug with Marketing Concepts lettering in front of books and a white pencil cup, demonstrating reflections and refraction.",
     "title": "MC Cup — 3D Reflection & Refraction Study"
-  },
-  {
-    "id": "aruba-brand-applications",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/aruba-brand-applications.webp",
-    "thumbnail": "/creative/drawings/aruba-brand-applications-thumb.webp",
-    "width": 2200,
-    "height": 1700,
-    "alt": "Aruba brand application board showing a blue smiling-figure key tag, cap, stamp, pedestrian sign, and promotional items.",
-    "title": "Aruba — Brand Applications"
   },
   {
     "id": "panthers-uniform",
@@ -496,6 +463,28 @@
     "title": "Six Flags — Thrilled Ever After"
   },
   {
+    "id": "aruba-apparel",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/aruba-apparel.webp",
+    "thumbnail": "/creative/drawings/aruba-apparel-thumb.webp",
+    "width": 2200,
+    "height": 1700,
+    "alt": "Aruba apparel presentation with white and black shirts, a cap, and the blue-and-yellow smiling-figure logo.",
+    "title": "Aruba — Apparel Concepts"
+  },
+  {
+    "id": "aruba-brand-applications",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/aruba-brand-applications.webp",
+    "thumbnail": "/creative/drawings/aruba-brand-applications-thumb.webp",
+    "width": 2200,
+    "height": 1700,
+    "alt": "Aruba brand application board showing a blue smiling-figure key tag, cap, stamp, pedestrian sign, and promotional items.",
+    "title": "Aruba — Brand Applications"
+  },
+  {
     "id": "aruba-wordmark",
     "category": "drawings-sketches",
     "type": "image",
@@ -505,6 +494,28 @@
     "height": 1700,
     "alt": "Blue lowercase Aruba wordmark incorporating a smiling yellow-and-blue figure, with One Happy Island set inside the first letter.",
     "title": "Aruba — Wordmark Study"
+  },
+  {
+    "id": "aruba-print-collage",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/aruba-print-collage.webp",
+    "thumbnail": "/creative/drawings/aruba-print-collage-thumb.webp",
+    "width": 2200,
+    "height": 1700,
+    "alt": "Tourism print composition combining a smiling child, handwritten-style text, tropical flowers, people, and a large blue Aruba wordmark.",
+    "title": "Aruba — Print Collage"
+  },
+  {
+    "id": "aruba-web-concept",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/aruba-web-concept.webp",
+    "thumbnail": "/creative/drawings/aruba-web-concept-thumb.webp",
+    "width": 2200,
+    "height": 1700,
+    "alt": "Tourism website concept with a smiling child, beach photography, handwritten-style headlines, navigation, and a blue Aruba wordmark.",
+    "title": "Aruba — Website Concept"
   },
   {
     "id": "imagelab-identity",
@@ -736,28 +747,6 @@
     "height": 2200,
     "alt": "Fright Fest promotional design featuring a startled Bugs Bunny against red rays with Daffy Duck in a circular callout.",
     "title": "Six Flags Fright Fest — Bugs Bunny Poster"
-  },
-  {
-    "id": "aruba-print-collage",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/aruba-print-collage.webp",
-    "thumbnail": "/creative/drawings/aruba-print-collage-thumb.webp",
-    "width": 2200,
-    "height": 1700,
-    "alt": "Tourism print composition combining a smiling child, handwritten-style text, tropical flowers, people, and a large blue Aruba wordmark.",
-    "title": "Aruba — Print Collage"
-  },
-  {
-    "id": "aruba-web-concept",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/aruba-web-concept.webp",
-    "thumbnail": "/creative/drawings/aruba-web-concept-thumb.webp",
-    "width": 2200,
-    "height": 1700,
-    "alt": "Tourism website concept with a smiling child, beach photography, handwritten-style headlines, navigation, and a blue Aruba wordmark.",
-    "title": "Aruba — Website Concept"
   },
   {
     "id": "roys-art-011",
