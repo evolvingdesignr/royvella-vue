@@ -144,17 +144,6 @@
     "title": "Figures in Shadow"
   },
   {
-    "id": "roys-art-008",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-008-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-008-psd-thumb.webp",
-    "width": 1113,
-    "height": 1760,
-    "alt": "Pencil study of a seated figure in a striped sleeveless top, with bent knees and arms reaching forward.",
-    "title": "Seated Figure Study"
-  },
-  {
     "id": "roys-art-004",
     "category": "drawings-sketches",
     "type": "image",
@@ -175,6 +164,17 @@
     "height": 1624,
     "alt": "Grayscale drawing looking up a giraffe’s long neck toward its head beneath a canopy of tree branches.",
     "title": "Giraffe Beneath the Branches"
+  },
+  {
+    "id": "roys-art-008",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-008-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-008-psd-thumb.webp",
+    "width": 1113,
+    "height": 1760,
+    "alt": "Pencil study of a seated figure in a striped sleeveless top, with bent knees and arms reaching forward.",
+    "title": "Seated Figure Study"
   },
   {
     "id": "roys-art-006",
