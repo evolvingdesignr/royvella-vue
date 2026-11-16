@@ -4913,6 +4913,43 @@ body {
 .contact-page :is(h1, h2, p) { margin-top: 0; }
 .contact-page .contact-icon { font-size: 18px; line-height: 1; }
 
+/* Compact contact submission confirmation. All form submission behavior stays unchanged. */
+.contact-page .contact-confirmation {
+  text-align: left;
+}
+.contact-page .contact-success-mark {
+  width: 64px;
+  height: 64px;
+  background: #e6f3eb;
+  color: #087344;
+  font-size: 30px;
+}
+.contact-page .contact-success-label {
+  color: #62676f;
+  font-size: 11px;
+  letter-spacing: .065em;
+  line-height: 1.4;
+}
+.contact-page .contact-confirmation .contact-section-title {
+  font-size: clamp(19px, 2vw, 25px);
+  letter-spacing: -.025em;
+}
+.contact-page .contact-confirmation .contact-intro {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.contact-page .contact-success-footer {
+  border-color: var(--home-line) !important;
+}
+.contact-page .contact-success-footer .btn {
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.contact-page #contact-success-title:focus {
+  outline: none;
+}
+
 /* Changelog: original reference release history and completed-item presentation. */
 .changelog-page {
   --brand-blue-hover: #1265bd;
