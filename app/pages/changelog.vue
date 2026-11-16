@@ -19,7 +19,7 @@
             </div>
             <ul class="changelog-checklist">
               <li><span>Introduced the Vue + Nuxt portfolio with selected work, project galleries, and the Lab.</span></li>
-              <li><span>Added 67 curated Art &amp; Design pieces in one continuous gallery, with optimized images, thumbnails, and keyboard-accessible lightbox navigation.</span></li>
+              <li><span>Added 66 curated Art &amp; Design pieces in one continuous gallery, with optimized images, thumbnails, and keyboard-accessible lightbox navigation.</span></li>
               <li><span>Organized drawings, illustrations, apparel, product design, branding, and marketing, with graffiti and lettering closing the collection.</span></li>
               <li><span>Preserved the ten Motion / 3D entries and existing project pages.</span></li>
             </ul>
