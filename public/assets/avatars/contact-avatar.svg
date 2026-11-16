@@ -1,15 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="251.978" height="277.196" viewBox="0 0 251.978 277.196">
   <style>
-    .contact-eye-closed { opacity: 0; animation: contact-blink-closed 4.5s steps(1, end) infinite; }
-    .contact-eye-open { opacity: 1; animation: contact-blink-open 4.5s steps(1, end) infinite; }
+    /* Uneven intervals: roughly 4.7s, 6s, 3.9s, 5.2s and 4.2s between blinks. */
+    .contact-eye-closed { opacity: 0; animation: contact-blink-closed 24s steps(1, end) infinite; }
+    .contact-eye-open { opacity: 1; animation: contact-blink-open 24s steps(1, end) infinite; }
     @keyframes contact-blink-open {
-      0%, 44.9%, 48%, 100% { opacity: 1; }
-      45% { opacity: 0; }
+      0%, 9.9%, 10.65%, 29.5%, 30.25%, 54.5%, 55.25%, 70.7%, 71.45%, 92.4%, 93.15%, 100% { opacity: 1; }
+      10%, 29.6%, 54.6%, 70.8%, 92.5% { opacity: 0; }
     }
     @keyframes contact-blink-closed {
-      0%, 44.9%, 48%, 100% { opacity: 0; }
-      45% { opacity: 1; }
+      0%, 9.9%, 10.65%, 29.5%, 30.25%, 54.5%, 55.25%, 70.7%, 71.45%, 92.4%, 93.15%, 100% { opacity: 0; }
+      10%, 29.6%, 54.6%, 70.8%, 92.5% { opacity: 1; }
     }
     @media (prefers-reduced-motion: reduce) {
       .contact-eye-open, .contact-eye-closed { animation: none; }
