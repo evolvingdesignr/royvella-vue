@@ -100,39 +100,6 @@
     "caption": "An early 3D animated intro created for my personal videos."
   },
   {
-    "id": "roys-art-000",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-000-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-000-psd-thumb.webp",
-    "width": 1318,
-    "height": 1103,
-    "alt": "Character design sheet showing Adam in a leaf skirt and red robe, with body proportions, poses, and facial expressions.",
-    "title": "Adam — Character Development"
-  },
-  {
-    "id": "roys-art-001",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-001-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-001-psd-thumb.webp",
-    "width": 1644,
-    "height": 1333,
-    "alt": "Design sheet for a red serpent with yellow spots and a green tongue, including head studies, expressions, and a segmented body.",
-    "title": "Sinny — Serpent Character Development"
-  },
-  {
-    "id": "roys-art-002",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-002-psd.webp",
-    "thumbnail": "/creative/drawings/roys-art-002-psd-thumb.webp",
-    "width": 1581,
-    "height": 1284,
-    "alt": "Moses character sheet with an orange-robed figure holding a staff, alongside construction sketches, poses, and head studies.",
-    "title": "Moses — Character Development"
-  },
-  {
     "id": "roys-art-003",
     "category": "drawings-sketches",
     "type": "image",
@@ -197,6 +164,39 @@
     "height": 2200,
     "alt": "Pencil drawing of a towering muscular cartoon character with a tall hairstyle beside a much smaller character standing on a box.",
     "title": "Hold up, Roy"
+  },
+  {
+    "id": "roys-art-000",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-000-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-000-psd-thumb.webp",
+    "width": 1318,
+    "height": 1103,
+    "alt": "Character design sheet showing Adam in a leaf skirt and red robe, with body proportions, poses, and facial expressions.",
+    "title": "Adam — Character Development"
+  },
+  {
+    "id": "roys-art-001",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-001-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-001-psd-thumb.webp",
+    "width": 1644,
+    "height": 1333,
+    "alt": "Design sheet for a red serpent with yellow spots and a green tongue, including head studies, expressions, and a segmented body.",
+    "title": "Sinny — Serpent Character Development"
+  },
+  {
+    "id": "roys-art-002",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-002-psd.webp",
+    "thumbnail": "/creative/drawings/roys-art-002-psd-thumb.webp",
+    "width": 1581,
+    "height": 1284,
+    "alt": "Moses character sheet with an orange-robed figure holding a staff, alongside construction sketches, poses, and head studies.",
+    "title": "Moses — Character Development"
   },
   {
     "id": "roys-art-013",
