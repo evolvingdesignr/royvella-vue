@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <title>Contact form definition</title>
+  </head>
+  <body>
+    <!-- Netlify discovers this static definition at build time. Match the Vue form field names. -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact">
+      <label>Name <input type="text" name="name"></label>
+      <label>Email <input type="email" name="email"></label>
+      <label>Message <textarea name="message"></textarea></label>
+      <label>Leave this empty <input type="text" name="bot-field"></label>
+    </form>
+  </body>
+</html>
