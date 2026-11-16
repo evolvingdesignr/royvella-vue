@@ -1,5 +1,14 @@
 # Agent progress
 
+## Launch-readiness fixes — November 16, 2026
+
+- **Release remains v0.0.0.1 — Hello, World.** No version increment.
+- Enabled the Vue Contact page's Netlify Forms POST to `/__forms.html`, plus pending/success/error states, required-field validation, honeypot, and accessible confirmation focus.
+- Added `public/__forms.html` for Netlify form detection, `tests/contact-netlify.test.mjs`, `npm test` / `npm run test:contact`, and Vue CI workflow checks.
+- Added `docs/contact-netlify.md` with mandatory Netlify Forms activation, verified-submission and owner-notification acceptance tests.
+- Source and static contract checks confirm matching `contact` field names and URL-encoded submission endpoint. **Full local test/build and Netlify Forms delivery verification are not yet confirmed.**
+- The React/Next.js deployment remains a separate Netlify project. The previously observed live site was behind newer GitHub commits; its Netlify deploy must be explicitly checked or triggered. No DNS changes were made.
+
 ## Current state — November 16, 2026
 
 - **v0.0.0.1 — Hello, World.** is the current display release of the Vue/Nuxt portfolio at https://www.royvella.com.
