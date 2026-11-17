@@ -377,17 +377,13 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
         ref="menu"
         class="mobile-nav"
         @keydown.esc.prevent="closeHeaderMenu(menu, true)"
-        @focusout="leaveHeaderMenu($event, menu)"
       >
         <summary class="home-menu-toggle" aria-label="Menu"><i class="fa-sharp fa-light fa-bars" aria-hidden="true"></i></summary>
-        <nav
-          class="d-flex flex-column gap-0"
-          aria-label="Mobile navigation"
-        >
-          <NuxtLink href="/work">Work</NuxtLink>
-          <NuxtLink href="/about">About</NuxtLink>
-          <NuxtLink href="/lab">Lab</NuxtLink>
-          <NuxtLink href="/contact">Let’s Talk →</NuxtLink>
+        <nav class="d-flex flex-column gap-0" aria-label="Mobile navigation">
+          <a href="/work">Work</a>
+          <a href="/about">About</a>
+          <a href="/lab">Lab</a>
+          <a href="/contact">Let’s Talk →</a>
         </nav>
       </details>
     </header>
