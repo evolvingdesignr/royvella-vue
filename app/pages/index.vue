@@ -383,7 +383,6 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
         <nav
           class="d-flex flex-column gap-0"
           aria-label="Mobile navigation"
-          @click="menu!.open = false"
         >
           <NuxtLink href="/work">Work</NuxtLink>
           <NuxtLink href="/about">About</NuxtLink>
