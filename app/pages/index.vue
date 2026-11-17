@@ -309,6 +309,7 @@ useSeoMeta({ title: 'Roy Vella | Selected Work', description: 'UI/UX design and 
   >
     <header
       class="home-header d-flex align-items-center"
+      style="position: absolute"
     >
       <a class="skip-link" href="#main-content">Skip to content</a>
       <NuxtLink href="/" class="rv-brand d-flex align-items-center" aria-label="Roy Vella home"><img class="rv-logo-image" src="/assets/branding/logo-rv-horizontal-white.svg" alt="" width="124" height="21"></NuxtLink>
