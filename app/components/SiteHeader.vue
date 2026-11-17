@@ -5,9 +5,6 @@ function closeMenu(restoreFocus = false) {
   mobileMenu.value.open = false
   if (restoreFocus) mobileMenu.value.querySelector('summary')?.focus()
 }
-function leaveMenu(event: FocusEvent) {
-  if (!mobileMenu.value?.contains(event.relatedTarget as Node | null)) closeMenu()
-}
 function outsideMenu(event: PointerEvent) {
   if (!mobileMenu.value?.contains(event.target as Node)) closeMenu()
 }
@@ -32,13 +29,13 @@ onBeforeUnmount(() => document.removeEventListener('pointerdown', outsideMenu))
         <img src="/assets/avatars/roy-avatar-mini.webp" alt="" width="32" height="32">
       </NuxtLink>
     </div>
-    <details ref="mobileMenu" class="mobile-nav inner-mobile-nav" @keydown.esc.prevent="closeMenu(true)" @focusout="leaveMenu">
+    <details ref="mobileMenu" class="mobile-nav inner-mobile-nav" @keydown.esc.prevent="closeMenu(true)">
       <summary aria-label="Menu"><span class="inner-menu-label">Menu</span><span class="inner-menu-icon"><i class="fa-sharp fa-light fa-bars" aria-hidden="true"></i></span></summary>
-      <nav class="d-flex flex-column gap-0" aria-label="Mobile navigation" @click="closeMenu()">
-        <NuxtLink href="/work">Work</NuxtLink>
-        <NuxtLink href="/lab">Lab</NuxtLink>
-        <NuxtLink href="/about">About</NuxtLink>
-        <NuxtLink href="/contact">Let’s Talk →</NuxtLink>
+      <nav class="d-flex flex-column gap-0" aria-label="Mobile navigation">
+        <a href="/work">Work</a>
+        <a href="/lab">Lab</a>
+        <a href="/about">About</a>
+        <a href="/contact">Let’s Talk →</a>
       </nav>
     </details>
   </header>
