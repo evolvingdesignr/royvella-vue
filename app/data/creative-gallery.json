@@ -210,17 +210,6 @@
     "title": "WU Character Study"
   },
   {
-    "id": "roys-art-012",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-012.webp",
-    "thumbnail": "/creative/drawings/roys-art-012-thumb.webp",
-    "width": 1044,
-    "height": 1705,
-    "alt": "Caricature of a bearded man in a blue turban, with a curled moustache, a hoop earring, and a red-and-black ornament.",
-    "title": "WU Character Portrait"
-  },
-  {
     "id": "roys-art-010",
     "category": "drawings-sketches",
     "type": "image",
@@ -331,17 +320,6 @@
     "title": "Portrait Apparel — Pink"
   },
   {
-    "id": "portrait-shirt-green",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/portrait-shirt-green.webp",
-    "thumbnail": "/creative/drawings/portrait-shirt-green-thumb.webp",
-    "width": 2200,
-    "height": 1424,
-    "alt": "Front-and-back lime green T-shirt mockups with a darker green illustrated portrait and angled lettering across the front.",
-    "title": "Portrait Apparel — Green"
-  },
-  {
     "id": "portrait-shirt-white-study",
     "category": "drawings-sketches",
     "type": "image",
@@ -441,17 +419,6 @@
     "title": "PCS Panthers — Panther Head Mark"
   },
   {
-    "id": "coach-panos-identity",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/coach-panos-identity-individual.webp",
-    "thumbnail": "/creative/drawings/coach-panos-identity-individual-thumb.webp",
-    "width": 1535,
-    "height": 2200,
-    "alt": "Illustrated coach portrait inside a dark shield with mauve Coach Panos lettering.",
-    "title": "Coach Panos — Shield Identity"
-  },
-  {
     "id": "grove-grand-bay-identity",
     "category": "drawings-sketches",
     "type": "image",
@@ -472,17 +439,6 @@
     "height": 1484,
     "alt": "Orange fuel-gauge bars above a blue and orange myfuelplus wordmark.",
     "title": "myfuelplus — Identity Study"
-  },
-  {
-    "id": "six-flags-thrilled-identity",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/six-flags-thrilled-identity-individual.webp",
-    "thumbnail": "/creative/drawings/six-flags-thrilled-identity-individual-thumb.webp",
-    "width": 2200,
-    "height": 998,
-    "alt": "Six Flags Thrilled Ever After lettering in blue and coral with flowing script and decorative flourishes.",
-    "title": "Six Flags — Thrilled Ever After"
   },
   {
     "id": "aruba-apparel",
@@ -584,17 +540,6 @@
     "title": "FriendZ — Splash Logo Study"
   },
   {
-    "id": "white-castle-marks",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/white-castle-marks.webp",
-    "thumbnail": "/creative/drawings/white-castle-marks-thumb.webp",
-    "width": 612,
-    "height": 792,
-    "alt": "Several blue-and-yellow White Castle wordmark and castle-symbol variations arranged on white.",
-    "title": "White Castle — Mark Studies"
-  },
-  {
     "id": "slims-bbq",
     "category": "drawings-sketches",
     "type": "image",
@@ -606,17 +551,6 @@
     "title": "Slim’s BBQ — Restaurant Identity"
   },
   {
-    "id": "papa-character-marks",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/papa-character-marks.webp",
-    "thumbnail": "/creative/drawings/papa-character-marks-thumb.webp",
-    "width": 776,
-    "height": 2200,
-    "alt": "Smiling illustrated male portrait above green-and-red Papa’s in the House lettering and a compact PJ mark.",
-    "title": "Papa’s in the House — Character Marks"
-  },
-  {
     "id": "flaming-idiots-poster",
     "category": "drawings-sketches",
     "type": "image",
@@ -626,50 +560,6 @@
     "height": 2200,
     "alt": "Orange-and-yellow Flaming Idiots theater poster featuring a cartoon chef holding a tray of three flaming drinks, surrounded by show dates, ticket prices, and event information.",
     "title": "Flaming Idiots — Illustrated Poster"
-  },
-  {
-    "id": "visit-florida-spring-break",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/visit-florida-spring-break-individual.webp",
-    "thumbnail": "/creative/drawings/visit-florida-spring-break-individual-thumb.webp",
-    "width": 1813,
-    "height": 2200,
-    "alt": "Turquoise portrait of a bearded man wearing sunglasses and headphones beside yellow sunshine lettering in a Visit Florida poster.",
-    "title": "Visit Florida — Spring Break Poster"
-  },
-  {
-    "id": "visit-florida-cannonball",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/visit-florida-cannonball-individual.webp",
-    "thumbnail": "/creative/drawings/visit-florida-cannonball-individual-thumb.webp",
-    "width": 1815,
-    "height": 2200,
-    "alt": "Yellow and teal Visit Florida poster with a couple on a boat, splashing water, and bold magenta lettering.",
-    "title": "Visit Florida — Cannonball Poster"
-  },
-  {
-    "id": "florida-panthers-opening-night",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/florida-panthers-opening-night-individual.webp",
-    "thumbnail": "/creative/drawings/florida-panthers-opening-night-individual-thumb.webp",
-    "width": 1201,
-    "height": 2200,
-    "alt": "Blue and yellow comic-style hockey poster featuring player number 16 and an opening-night matchup against Boston.",
-    "title": "Florida Panthers — Opening Night Comic Poster"
-  },
-  {
-    "id": "florida-panthers-ticket-poster",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/florida-panthers-ticket-poster-individual.webp",
-    "thumbnail": "/creative/drawings/florida-panthers-ticket-poster-individual-thumb.webp",
-    "width": 1199,
-    "height": 2200,
-    "alt": "Black and white hockey ticket advertisement with player number 26 against an arena crowd and bold ticket-sale lettering.",
-    "title": "Florida Panthers — Single-Game Ticket Poster"
   },
   {
     "id": "super-sale-mascot",
