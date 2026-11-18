@@ -2,6 +2,8 @@
 
 Historical local review. The released catalog and validation are documented in [v0.0.0.1 — Hello, World.](releases/v0.0.0.1.md). Older counts and approval holds below describe their original review stage.
 
+Asset rows for the ten works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
+
 Current curation is governed by [gallery-correction-review.md](gallery-correction-review.md) and `app/data/creative-gallery-exclusions.json`. Five artwork entries are permanently excluded. Do not restore records or assets from the historical tables below to meet an old count.
 
 Latest curation: Roy requested removal of ten pieces. The current gallery contains **49 pieces and 98 WebP assets**. Earlier counts and asset tables below record previous implementation batches. Original source files remain untouched.
@@ -47,7 +49,6 @@ Files are under `public/creative/drawings/`. Each stem has `<stem>.webp` and `<s
 | `portrait-shirt-blue` — Portrait Apparel — Blue | 2200 × 1424 / 87.7 | 960 × 621 / 26.7 | `mg stuff/Mike Gagne Stuff/BluePre.pdf` / page 1 |
 | `portrait-shirt-brown` — Portrait Apparel — Sand | 2200 × 1424 / 63.1 | 960 × 621 / 19.1 | `mg stuff/Mike Gagne Stuff/BrownPre.pdf` / page 1 |
 | `portrait-shirt-white-study` — Portrait Apparel — Line Study | 612 × 792 / 27.7 | 612 × 792 / 23.8 | `mg stuff/Mike Gagne Stuff/FwayTee01.jpg` |
-| `portrait-shirt-green` — Portrait Apparel — Green | 2200 × 1424 / 66.3 | 960 × 621 / 20.0 | `mg stuff/Mike Gagne Stuff/GreenPre.pdf` / page 1 |
 | `portrait-shirt-pink` — Portrait Apparel — Pink | 2200 × 1424 / 65.4 | 960 × 621 / 19.6 | `mg stuff/Mike Gagne Stuff/PinkPre.pdf` / page 1 |
 | `portrait-shirt-red` — Portrait Apparel — Red | 2200 × 1424 / 71.2 | 960 × 621 / 21.3 | `mg stuff/Mike Gagne Stuff/RedPre.pdf` / page 1 |
 | `portrait-shirt-cap` — Portrait Apparel — Cap Character | 2200 × 1424 / 74.1 | 960 × 621 / 23.6 | `mg stuff/Mike Gagne Stuff/WhitePre.pdf` / page 1 |
@@ -59,10 +60,8 @@ Files are under `public/creative/drawings/`. Each stem has `<stem>.webp` and `<s
 | `friendz-splash` — FriendZ — Splash Logo Study | 1700 × 2200 / 229.9 | 742 × 960 / 67.1 | `mg stuff/FRIC-0788_FriendZcupDesign07.pdf` / page 2 |
 | `friendz-cup` — FriendZ — Cup Logo Study | 1700 × 2200 / 95.0 | 742 × 960 / 32.2 | `mg stuff/FRIC-0788_FriendZcupDesign07.pdf` / page 3 |
 | `friendz-lettering` — FriendZ — Bold Lettering Study | 1700 × 2200 / 140.9 | 742 × 960 / 46.4 | `mg stuff/FRIC-0788_FriendZcupDesign06.pdf` / page 3 |
-| `papa-character-marks` — Papa’s in the House — Character Marks | 776 × 2200 / 106.0 | 339 × 960 / 32.3 | `mg stuff/PITH_Present copy.pdf` / page 2 |
 | `imagelab-identity` — ImageLab — Identity Study | 2200 × 1700 / 52.9 | 960 × 742 / 18.7 | `mg stuff/Mike Gagne Stuff/IL_moc02.pdf` / page 1 |
 | `super-sale-mascot` — Super Sale XLIV — Mascot Graphic | 1700 × 2200 / 138.8 | 742 × 960 / 43.2 | `mg stuff/Mike Gagne Stuff/SuperSaleXLIVlogo.pdf` / page 2 |
-| `white-castle-marks` — White Castle — Mark Studies | 612 × 792 / 38.6 | 612 × 792 / 33.1 | `mg stuff/Mike Gagne Stuff/white_castle.jpg` |
 | `brand-mark-board` — Brand Mark Studies | 2200 × 1424 / 125.8 | 960 × 621 / 36.4 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 3 |
 | `music-posters` — Music Poster Studies | 2200 × 1424 / 308.8 | 960 × 621 / 71.1 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 4 |
 | `burger-campaign` — Burger Campaign — Layout Studies | 2200 × 1424 / 251.4 | 960 × 621 / 67.0 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 5 |

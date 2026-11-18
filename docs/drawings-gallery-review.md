@@ -2,6 +2,8 @@
 
 Historical local review. The released catalog and validation are documented in [v0.0.0.1 — Hello, World.](releases/v0.0.0.1.md). Older counts and approval holds below describe their original review stage.
 
+Asset rows for the ten works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
+
 Current curation is governed by [gallery-correction-review.md](gallery-correction-review.md) and `app/data/creative-gallery-exclusions.json`. Five artwork entries are permanently excluded. Do not restore records or assets from the historical tables below to meet an old count.
 
 Latest curation: Roy requested removal of ten pieces. The current gallery contains **49 pieces and 98 WebP assets**. Earlier counts and asset tables below record previous implementation batches. Original source files remain untouched.
@@ -51,7 +53,6 @@ Names below are under `public/creative/drawings/`; each full image is `<stem>.we
 | `roys-art-009` — Mushroom Characters | 2200 × 1522 | 580.8 | 960 × 664 | 84.5 |
 | `roys-art-010` — Instant Noodles — Portrait | 1230 × 1611 | 251.6 | 733 × 960 | 81.8 |
 | `roys-art-011` — The Crowned Figure | 1875 × 2200 | 1053.6 | 818 × 960 | 137.2 |
-| `roys-art-012` — Blue-Turban Character Portrait | 1044 × 1705 | 528.5 | 588 × 960 | 114.6 |
 | `roys-art-013` — Streetwear Character Study | 1807 × 2200 | 832.4 | 789 × 960 | 97.3 |
 | `roys-art-014` — Mushroom Garden | 1371 × 2184 | 558.9 | 603 × 960 | 143.4 |
 | `roys-art-015` — Krimp — Fantasy Character | 2200 × 1500 | 906.6 | 960 × 655 | 120.0 |

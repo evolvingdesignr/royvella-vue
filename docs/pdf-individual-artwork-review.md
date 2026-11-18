@@ -2,6 +2,8 @@
 
 Historical local review. The released catalog and validation are documented in [v0.0.0.1 — Hello, World.](releases/v0.0.0.1.md). Older counts and approval holds below describe their original review stage.
 
+Asset rows for the ten works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
+
 Local review only. No commit, push, or deployment.
 
 Source: `/Users/royvella/Desktop/page--illustration-sketchs-more/mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` (the requested top-level path was absent; both nested copies are identical). PDF pages 3–11 were visually inspected. Original source SHA-256: `de591d4383709122ac838f72885e4e1dfed0bc1b3ef0872d89fd7efd679de2f1`.
@@ -18,16 +20,10 @@ All full-size exports have a 2200px long edge; thumbnails have a 960px long edge
 
 | PDF page | Proposed title | Full size | Thumbnail | WebP bytes (full / thumb) | Asset stem |
 |---|---|---|---|---|---|
-| 3 | Coach Panos — Shield Identity | 1535 × 2200 | 670 × 960 | 54,564 / 18,996 | `coach-panos-identity-individual` |
 | 3 | Grove at Grand Bay — Identity Study | 2200 × 2148 | 960 × 937 | 109,028 / 36,582 | `grove-grand-bay-identity-individual` |
 | 3 | myfuelplus — Identity Study | 2200 × 1484 | 960 × 648 | 44,454 / 15,328 | `myfuelplus-identity-individual` |
-| 3 | Six Flags — Thrilled Ever After | 2200 × 998 | 960 × 435 | 51,844 / 18,226 | `six-flags-thrilled-identity-individual` |
-| 4 | Visit Florida — Spring Break Poster | 1813 × 2200 | 791 × 960 | 366,018 / 106,410 | `visit-florida-spring-break-individual` |
-| 4 | Visit Florida — Cannonball Poster | 1815 × 2200 | 792 × 960 | 473,076 / 115,934 | `visit-florida-cannonball-individual` |
 | 6 | BBVA Compass — Household Selection Concept | 2200 × 1893 | 960 × 826 | 95,640 / 30,416 | `bbva-household-concept-individual` |
 | 6 | BBVA Compass — Deposit Selection Concept | 2200 × 1894 | 960 × 826 | 127,052 / 40,658 | `bbva-deposit-concept-individual` |
-| 7 | Florida Panthers — Opening Night Comic Poster | 1201 × 2200 | 524 × 960 | 219,154 / 76,888 | `florida-panthers-opening-night-individual` |
-| 7 | Florida Panthers — Single-Game Ticket Poster | 1199 × 2200 | 523 × 960 | 159,716 / 52,458 | `florida-panthers-ticket-poster-individual` |
 | 9 | Six Flags Fright Fest — Scarecrow Poster | 1464 × 2200 | 639 × 960 | 223,950 / 70,902 | `six-flags-fright-fest-scarecrow-individual` |
 | 9 | Kraft × Six Flags — Promotional Packaging | 2097 × 2200 | 915 × 960 | 322,986 / 104,158 | `kraft-six-flags-packaging-individual` |
 | 9 | Six Flags Fright Fest — Bugs Bunny Poster | 1464 × 2200 | 639 × 960 | 217,370 / 74,310 | `six-flags-fright-fest-bugs-individual` |
