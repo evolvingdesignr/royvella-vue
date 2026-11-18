@@ -54,7 +54,7 @@ All four new JPEG compositions and both Illustrator versions were visually revie
 
 ## Organization and preservation
 
-The continuous grid and styling are unchanged. Character studies and drawings lead, followed by illustrations, apparel/products, and branding/marketing. The new restaurant identity sits with other restaurant marks. The final seven entries are The Crowned Figure; Character Clash — Graffiti Illustration; New York — Graffiti & Caricatures; Graffiti Wall — Lettering & Characters; Mushroom Character — Graffiti Illustration; Red Scroll — Lettering Study; Green and Purple — Lettering Study.
+The continuous grid and styling are unchanged. Character studies and drawings lead, followed by illustrations, apparel/products, and branding/marketing. The new restaurant identity sits with other restaurant marks. The current final three entries, moved together at Roy’s request, are Mushroom Garden; The Mushroom Crew; Trollin'.
 
 The PCS Panthers trio is consecutive at positions 30–32: Basketball Uniform, Logo & Mascot Studies, and Panther Head Mark. All retained records, approved titles, captions, image URLs, image contents, and Motion / 3D data are unchanged.
 

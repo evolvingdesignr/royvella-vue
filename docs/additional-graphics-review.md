@@ -2,7 +2,7 @@
 
 Historical local review. The released catalog and validation are documented in [v0.0.0.1 — Hello, World.](releases/v0.0.0.1.md). Older counts and approval holds below describe their original review stage.
 
-Asset rows for the ten works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
+Asset rows for the seventeen works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
 
 Current curation is governed by [gallery-correction-review.md](gallery-correction-review.md) and `app/data/creative-gallery-exclusions.json`. Five artwork entries are permanently excluded. Do not restore records or assets from the historical tables below to meet an old count.
 
@@ -61,10 +61,8 @@ Files are under `public/creative/drawings/`. Each stem has `<stem>.webp` and `<s
 | `friendz-cup` — FriendZ — Cup Logo Study | 1700 × 2200 / 95.0 | 742 × 960 / 32.2 | `mg stuff/FRIC-0788_FriendZcupDesign07.pdf` / page 3 |
 | `friendz-lettering` — FriendZ — Bold Lettering Study | 1700 × 2200 / 140.9 | 742 × 960 / 46.4 | `mg stuff/FRIC-0788_FriendZcupDesign06.pdf` / page 3 |
 | `imagelab-identity` — ImageLab — Identity Study | 2200 × 1700 / 52.9 | 960 × 742 / 18.7 | `mg stuff/Mike Gagne Stuff/IL_moc02.pdf` / page 1 |
-| `super-sale-mascot` — Super Sale XLIV — Mascot Graphic | 1700 × 2200 / 138.8 | 742 × 960 / 43.2 | `mg stuff/Mike Gagne Stuff/SuperSaleXLIVlogo.pdf` / page 2 |
 | `brand-mark-board` — Brand Mark Studies | 2200 × 1424 / 125.8 | 960 × 621 / 36.4 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 3 |
 | `music-posters` — Music Poster Studies | 2200 × 1424 / 308.8 | 960 × 621 / 71.1 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 4 |
-| `burger-campaign` — Burger Campaign — Layout Studies | 2200 × 1424 / 251.4 | 960 × 621 / 67.0 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 5 |
 | `energy-infographics` — Energy — Infographic Layouts | 2200 × 1424 / 157.2 | 960 × 621 / 45.4 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 6 |
 | `hockey-promotion` — Hockey — Promotional Layouts | 2200 × 1424 / 239.2 | 960 × 621 / 75.8 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 7 |
 | `ntice-packaging` — NTICE — Packaging Study | 2200 × 1424 / 131.2 | 960 × 621 / 37.7 | `mg stuff/MichaelJanGagne_BOOKMOBILE.pdf` / page 8 |

@@ -2,7 +2,7 @@
 
 Historical local review. The released catalog and validation are documented in [v0.0.0.1 — Hello, World.](releases/v0.0.0.1.md). Older counts and approval holds below describe their original review stage.
 
-Asset rows for the ten works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
+Asset rows for the seventeen works removed in the November 18, 2026 curation have been omitted; their generated image pairs are no longer shipped. Historical batch counts below are unchanged.
 
 Local review only. No commit, push, or deployment.
 
@@ -21,12 +21,8 @@ All full-size exports have a 2200px long edge; thumbnails have a 960px long edge
 | PDF page | Proposed title | Full size | Thumbnail | WebP bytes (full / thumb) | Asset stem |
 |---|---|---|---|---|---|
 | 3 | Grove at Grand Bay — Identity Study | 2200 × 2148 | 960 × 937 | 109,028 / 36,582 | `grove-grand-bay-identity-individual` |
-| 3 | myfuelplus — Identity Study | 2200 × 1484 | 960 × 648 | 44,454 / 15,328 | `myfuelplus-identity-individual` |
 | 6 | BBVA Compass — Household Selection Concept | 2200 × 1893 | 960 × 826 | 95,640 / 30,416 | `bbva-household-concept-individual` |
 | 6 | BBVA Compass — Deposit Selection Concept | 2200 × 1894 | 960 × 826 | 127,052 / 40,658 | `bbva-deposit-concept-individual` |
-| 9 | Six Flags Fright Fest — Scarecrow Poster | 1464 × 2200 | 639 × 960 | 223,950 / 70,902 | `six-flags-fright-fest-scarecrow-individual` |
-| 9 | Kraft × Six Flags — Promotional Packaging | 2097 × 2200 | 915 × 960 | 322,986 / 104,158 | `kraft-six-flags-packaging-individual` |
-| 9 | Six Flags Fright Fest — Bugs Bunny Poster | 1464 × 2200 | 639 × 960 | 217,370 / 74,310 | `six-flags-fright-fest-bugs-individual` |
 | 8 | NTICE — Packaging Study | 1019 × 2200 | 445 × 960 | 113,456 / 34,474 | `ntice-packaging-individual` |
 
 All assets are pairs under `public/creative/drawings/`: `<stem>.webp` and `<stem>-thumb.webp`. NTICE is the existing entry; the other 13 rows are new records.
@@ -43,7 +39,7 @@ The five superseded board records and their ten generated assets were removed. N
 
 ## Retained compositions
 
-Pages 5, 10, and 11 remain as Burger Campaign — Layout Studies, High-Contrast Portrait Studies, and Basketball Character Studies. Artwork overlaps within these compositions; individual rectangular crops would cut into another design. Their existing titles, images, and captions are unchanged.
+Pages 10 and 11 remain as High-Contrast Portrait Studies and Basketball Character Studies. Artwork overlaps within these compositions; individual rectangular crops would cut into another design. Their existing titles, images, and captions are unchanged.
 
 ## Ordering and validation
 

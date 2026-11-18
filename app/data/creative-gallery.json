@@ -254,39 +254,6 @@
     "title": "High-Contrast Portrait Studies"
   },
   {
-    "id": "roys-art-014",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-014.webp",
-    "thumbnail": "/creative/drawings/roys-art-014-thumb.webp",
-    "width": 1371,
-    "height": 2184,
-    "alt": "Colorful fantasy garden with towering purple and orange flowers, spotted mushrooms, small insects, and green foliage.",
-    "title": "Mushroom Garden"
-  },
-  {
-    "id": "roys-art-009",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-009.webp",
-    "thumbnail": "/creative/drawings/roys-art-009-thumb.webp",
-    "width": 2200,
-    "height": 1522,
-    "alt": "Three colorful cartoon mushroom characters, including one holding an artist’s palette and another holding a mallet.",
-    "title": "The Mushroom Crew"
-  },
-  {
-    "id": "roys-art-015",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-015.webp",
-    "thumbnail": "/creative/drawings/roys-art-015-thumb.webp",
-    "width": 2200,
-    "height": 1500,
-    "alt": "Purple fantasy creature wearing a medallion and sitting among colorful oversized mushrooms beside red Krimp lettering.",
-    "title": "Trollin'"
-  },
-  {
     "id": "portrait-shirt-blue",
     "category": "drawings-sketches",
     "type": "image",
@@ -430,17 +397,6 @@
     "title": "Grove at Grand Bay — Identity Study"
   },
   {
-    "id": "myfuelplus-identity",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/myfuelplus-identity-individual.webp",
-    "thumbnail": "/creative/drawings/myfuelplus-identity-individual-thumb.webp",
-    "width": 2200,
-    "height": 1484,
-    "alt": "Orange fuel-gauge bars above a blue and orange myfuelplus wordmark.",
-    "title": "myfuelplus — Identity Study"
-  },
-  {
     "id": "aruba-apparel",
     "category": "drawings-sketches",
     "type": "image",
@@ -562,26 +518,15 @@
     "title": "Flaming Idiots — Illustrated Poster"
   },
   {
-    "id": "super-sale-mascot",
+    "id": "creative-juice-website-splash",
     "category": "drawings-sketches",
     "type": "image",
-    "src": "/creative/drawings/super-sale-mascot.webp",
-    "thumbnail": "/creative/drawings/super-sale-mascot-thumb.webp",
-    "width": 1700,
-    "height": 2200,
-    "alt": "A smiling yellow mascot in a red football helmet above an hhgregg XLIV Super Sale emblem dated 2009.",
-    "title": "Super Sale XLIV — Mascot Graphic"
-  },
-  {
-    "id": "burger-campaign",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/burger-campaign-no-credit.webp",
-    "thumbnail": "/creative/drawings/burger-campaign-no-credit-thumb.webp",
-    "width": 2200,
-    "height": 1424,
-    "alt": "Burger promotional layouts arranged around a smartphone mockup, combining food photography with orange, green, and dark backgrounds.",
-    "title": "Burger Campaign — Layout Studies"
+    "src": "/creative/drawings/creative-juice-website-splash.png",
+    "thumbnail": "/creative/drawings/creative-juice-website-splash-thumb.png",
+    "width": 1024,
+    "height": 768,
+    "alt": "Creative Juice website illustration showing an orange plus a juicer equaling a glass of orange juice, with the words your project, our talent, and creative juice.",
+    "title": "Creative Juice — Website Splash"
   },
   {
     "id": "bbva-household-concept",
@@ -604,50 +549,6 @@
     "height": 1894,
     "alt": "Banking interface concept with illustrated piggy banks of different sizes and deposit amount options.",
     "title": "BBVA Compass — Deposit Selection Concept"
-  },
-  {
-    "id": "kraft-six-flags-packaging",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/kraft-six-flags-packaging-individual.webp",
-    "thumbnail": "/creative/drawings/kraft-six-flags-packaging-individual-thumb.webp",
-    "width": 2097,
-    "height": 2200,
-    "alt": "Blue and yellow Kraft Macaroni and Cheese package front with cartoon riders in a green Six Flags roller coaster car.",
-    "title": "Kraft × Six Flags — Promotional Packaging"
-  },
-  {
-    "id": "six-flags-fright-fest-scarecrow",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/six-flags-fright-fest-scarecrow-individual.webp",
-    "thumbnail": "/creative/drawings/six-flags-fright-fest-scarecrow-individual-thumb.webp",
-    "width": 1464,
-    "height": 2200,
-    "alt": "Fright Fest promotional design with a reaching scarecrow, roller coaster silhouettes, and Pleasant Screams lettering.",
-    "title": "Six Flags Fright Fest — Scarecrow Poster"
-  },
-  {
-    "id": "six-flags-fright-fest-bugs",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/six-flags-fright-fest-bugs-individual.webp",
-    "thumbnail": "/creative/drawings/six-flags-fright-fest-bugs-individual-thumb.webp",
-    "width": 1464,
-    "height": 2200,
-    "alt": "Fright Fest promotional design featuring a startled Bugs Bunny against red rays with Daffy Duck in a circular callout.",
-    "title": "Six Flags Fright Fest — Bugs Bunny Poster"
-  },
-  {
-    "id": "roys-art-011",
-    "category": "drawings-sketches",
-    "type": "image",
-    "src": "/creative/drawings/roys-art-011.webp",
-    "thumbnail": "/creative/drawings/roys-art-011-thumb.webp",
-    "width": 1875,
-    "height": 2200,
-    "alt": "Illustration of a crowned figure seated on a throne beneath a large crown shape, surrounded by skulls, candles, and graffiti.",
-    "title": "The Crowned Figure"
   },
   {
     "id": "roys-art-016",
@@ -714,5 +615,38 @@
     "height": 1106,
     "alt": "Interlocking green and purple graffiti letters outlined in black, with unfinished pencil character sketches at the left.",
     "title": "Green and Purple — Lettering Study"
+  },
+  {
+    "id": "roys-art-014",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-014.webp",
+    "thumbnail": "/creative/drawings/roys-art-014-thumb.webp",
+    "width": 1371,
+    "height": 2184,
+    "alt": "Colorful fantasy garden with towering purple and orange flowers, spotted mushrooms, small insects, and green foliage.",
+    "title": "Mushroom Garden"
+  },
+  {
+    "id": "roys-art-009",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-009.webp",
+    "thumbnail": "/creative/drawings/roys-art-009-thumb.webp",
+    "width": 2200,
+    "height": 1522,
+    "alt": "Three colorful cartoon mushroom characters, including one holding an artist’s palette and another holding a mallet.",
+    "title": "The Mushroom Crew"
+  },
+  {
+    "id": "roys-art-015",
+    "category": "drawings-sketches",
+    "type": "image",
+    "src": "/creative/drawings/roys-art-015.webp",
+    "thumbnail": "/creative/drawings/roys-art-015-thumb.webp",
+    "width": 2200,
+    "height": 1500,
+    "alt": "Purple fantasy creature wearing a medallion and sitting among colorful oversized mushrooms beside red Krimp lettering.",
+    "title": "Trollin'"
   }
 ]

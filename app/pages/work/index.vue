@@ -38,8 +38,8 @@ useSeoMeta({ title: 'Selected Work | Roy Vella', description: 'Selected UI/UX, f
       <div class="container-fluid shell listing work-listing">
         <div class="work-intro">
           <p class="eyebrow">PORTFOLIO</p>
-          <h1>Selected work<span class="muted">.</span></h1>
-          <p class="lede">UI/UX, front-end, and e-commerce.</p>
+          <h1>Some of my work<span class="muted">.</span></h1>
+          <p class="lede">A collection of design, development, and creative work across professional, freelance, and personal projects.</p>
         </div>
         <div class="work-filters d-flex flex-wrap" role="group" aria-label="Portfolio categories">
           <button v-for="item in categories" :key="item.id" type="button" :aria-pressed="category.id === item.id" aria-controls="work-results" @click="changeCategory(item.id)">{{ item.label }}</button>
